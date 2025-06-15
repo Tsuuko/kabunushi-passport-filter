@@ -1,8 +1,9 @@
 import { Company, CompanyListData } from '../types/company';
+import { SEARCH_CONFIG } from '../constants/config';
 
 export async function parseJSON(): Promise<{ companies: Company[], updateTime: string, error?: string }> {
   try {
-    const response = await fetch('/list.jsonc');
+    const response = await fetch(SEARCH_CONFIG.DATA_FILE_PATH);
     
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}: ${response.statusText}`);

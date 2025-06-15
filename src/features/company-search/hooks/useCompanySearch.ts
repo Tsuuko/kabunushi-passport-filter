@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Company } from '../types/company';
 import { parseJSON, searchCompanies, parseSearchInput } from '../utils/csvParser';
+import { SEARCH_CONFIG } from '../constants/config';
 
 export function useCompanySearch() {
   const [companies, setCompanies] = useState<Company[]>([]);
@@ -25,8 +26,8 @@ export function useCompanySearch() {
       if (loadError) {
         setError(loadError);
         // データが空の場合はリトライを提案
-        if (companies.length === 0 && retryCount < 3) {
-          console.log(`データ読み込み失敗、リトライ可能 (${retryCount + 1}/3)`);
+        if (companies.length === 0 && retryCount < SEARCH_CONFIG.MAX_RETRY_COUNT) {
+          console.log(`データ読み込み失敗、リトライ可能 (${retryCount + 1}/${SEARCH_CONFIG.MAX_RETRY_COUNT})`);
         }
       } else {
         setRetryCount(0); // 成功時はリトライカウントをリセット
@@ -65,7 +66,7 @@ export function useCompanySearch() {
   };
 
   const retry = () => {
-    if (retryCount < 3) {
+    if (retryCount < SEARCH_CONFIG.MAX_RETRY_COUNT) {
       setRetryCount(prev => prev + 1);
     }
   };
@@ -79,7 +80,7 @@ export function useCompanySearch() {
     searchTermCount,
     updateTime,
     error,
-    canRetry: retryCount < 3,
+    canRetry: retryCount < SEARCH_CONFIG.MAX_RETRY_COUNT,
     search,
     clearSearch,
     retry

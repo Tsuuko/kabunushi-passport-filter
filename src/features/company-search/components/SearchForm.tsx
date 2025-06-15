@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { SEARCH_CONFIG } from '../constants/config';
 
 interface SearchFormProps {
   onSearch: (input: string, fuzzySearch?: boolean) => void;
@@ -20,7 +21,7 @@ export function SearchForm({ onSearch, isSearching, onClear }: SearchFormProps) 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       onSearch(input, fuzzySearch);
-    }, 300);
+    }, SEARCH_CONFIG.DEBOUNCE_DELAY);
 
     return () => clearTimeout(timeoutId);
   }, [input, fuzzySearch, onSearch]);
