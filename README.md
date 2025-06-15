@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 株主パスポート企業検索
 
-## Getting Started
+株主パスポート参加企業を証券コードまたは企業名で検索できるWebアプリケーションです。
 
-First, run the development server:
+## 機能
+
+- **企業検索**: 証券コード・企業名による検索
+- **複数検索**: カンマ・改行区切りでの複数企業同時検索  
+- **あいまい検索**: ON/OFF切り替え可能な部分マッチ検索
+- **株式会社省略対応**: あいまい検索OFF時も「光フード」→「光フードサービス株式会社」に対応
+- **リアルタイム検索**: 入力と同時に検索結果更新
+- **入力クリア**: ×ボタンでの一括クリア機能
+- **検索統計**: 入力件数/ヒット数の表示
+- **データ更新日表示**: 画面右上に表示
+- **レスポンシブ対応**: PC・モバイル両対応
+
+## 開発環境のセットアップ
+
+### 必要な環境
+
+- Node.js 18以上
+- pnpm（推奨）
+
+### インストール
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 依存関係のインストール
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 開発サーバーの起動
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# 開発サーバーを起動（Turbopack使用）
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ブラウザで [http://localhost:3000](http://localhost:3000) を開いて結果を確認してください。
 
-## Learn More
+`src/app/page.tsx` を編集することでページを変更できます。ファイルを編集すると自動的にページが更新されます。
 
-To learn more about Next.js, take a look at the following resources:
+### その他のコマンド
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# プロダクション用ビルド
+pnpm build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# プロダクションサーバーの起動
+pnpm start
 
-## Deploy on Vercel
+# コードの品質チェック
+pnpm lint
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 技術スタック
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **フレームワーク**: Next.js 15 (App Router)
+- **言語**: TypeScript 5
+- **スタイリング**: Tailwind CSS v4
+- **フォント**: Geist (Sans & Mono)
+- **リンター**: oxlint
+- **パッケージマネージャー**: pnpm
+
+## プロジェクト構成
+
+```
+src/
+├── app/
+│   ├── layout.tsx          # ルートレイアウト
+│   ├── page.tsx           # メインページ
+│   └── globals.css        # グローバルスタイル
+├── components/
+│   └── Footer.tsx         # フッターコンポーネント
+└── features/
+    └── company-search/
+        ├── components/    # 検索関連コンポーネント
+        ├── hooks/        # カスタムフック
+        ├── types/        # TypeScript型定義
+        └── utils/        # ユーティリティ関数
+
+public/
+├── list.jsonc           # 企業データ
+└── favicon.svg         # ファビコン
+```
+
+## データ形式
+
+企業データは `public/list.jsonc` で管理されています：
+
+```json
+{
+  "updateTime": "2025-06-15",
+  "data": [
+    {
+      "code": "138A",
+      "name": "光フードサービス株式会社", 
+      "furigana": "ひかりふーどさーびす",
+      "decisionMonth": 11,
+      "registrationDate": ""
+    }
+  ]
+}
+```
+
+## 検索仕様
+
+### あいまい検索ON（デフォルト）
+- 部分マッチ検索
+- 「光フード」→「光フードサービス株式会社」がヒット
+
+### あいまい検索OFF
+- 完全一致検索
+- 株式会社省略対応（「光フード」→「光フードサービス株式会社」がヒット）
+- 前株・後株両対応（「コロワイド」→「株式会社 コロワイド」がヒット）
+
+## デプロイ
+
+このNext.jsアプリケーションをデプロイする最も簡単な方法は、Next.jsの作成者による [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) を使用することです。
+
+詳細については、[Next.jsデプロイメントドキュメント](https://nextjs.org/docs/app/building-your-application/deploying)をご確認ください。
