@@ -1,4 +1,5 @@
 import { Company } from '../types/company';
+import { SearchIndex } from './search-index';
 
 /**
  * 検索戦略の基底インターフェース
@@ -92,11 +93,58 @@ class ExactSearchStrategy implements SearchStrategy {
 }
 
 /**
+ * インデックス付き高速検索戦略
+ */
+class IndexedSearchStrategy implements SearchStrategy {
+  private searchIndex: SearchIndex;
+
+  constructor(companies: Company[]) {
+    this.searchIndex = new SearchIndex(companies);
+  }
+
+  search(companies: Company[], searchTerms: string[]): Company[] {
+    // インデックスを使用した高速検索（companiesパラメータは無視）
+    return this.searchIndex.fuzzySearch(searchTerms);
+  }
+
+  exactSearch(searchTerms: string[]): Company[] {
+    return this.searchIndex.exactSearch(searchTerms);
+  }
+
+  getStats() {
+    return this.searchIndex.getStats();
+  }
+}
+
+/**
  * 検索戦略ファクトリー
  */
 export class SearchStrategyFactory {
-  static createStrategy(fuzzySearch: boolean): SearchStrategy {
+  private static indexedStrategy: IndexedSearchStrategy | null = null;
+
+  static createStrategy(fuzzySearch: boolean, companies?: Company[]): SearchStrategy {
+    // 大量データの場合はインデックス付き検索を使用
+    if (companies && companies.length > 100) {
+      if (!this.indexedStrategy || this.indexedStrategy.getStats().totalCompanies !== companies.length) {
+        this.indexedStrategy = new IndexedSearchStrategy(companies);
+      }
+      
+      if (fuzzySearch) {
+        return this.indexedStrategy;
+      } else {
+        // 完全一致検索用のラッパー
+        return {
+          search: (_, searchTerms: string[]) => this.indexedStrategy!.exactSearch(searchTerms)
+        };
+      }
+    }
+    
+    // 少量データの場合は従来の検索を使用
     return fuzzySearch ? new FuzzySearchStrategy() : new ExactSearchStrategy();
+  }
+
+  static clearCache() {
+    this.indexedStrategy = null;
   }
 }
 
@@ -108,6 +156,6 @@ export function executeSearch(
   searchTerms: string[], 
   fuzzySearch: boolean = true
 ): Company[] {
-  const strategy = SearchStrategyFactory.createStrategy(fuzzySearch);
+  const strategy = SearchStrategyFactory.createStrategy(fuzzySearch, companies);
   return strategy.search(companies, searchTerms);
 }
