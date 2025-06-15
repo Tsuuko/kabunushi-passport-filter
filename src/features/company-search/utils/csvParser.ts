@@ -1,27 +1,61 @@
 import { Company, CompanyListData } from '../types/company';
 
-export async function parseJSON(): Promise<{ companies: Company[], updateTime: string }> {
+export async function parseJSON(): Promise<{ companies: Company[], updateTime: string, error?: string }> {
   try {
     const response = await fetch('/list.jsonc');
+    
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+    
     const jsonText = await response.text();
+    
+    if (!jsonText.trim()) {
+      throw new Error('Empty response received');
+    }
     
     // JSONCからコメントを除去（簡単な実装）
     const cleanJsonText = jsonText.replace(/\/\/.*$/gm, '').replace(/\/\*[\s\S]*?\*\//g, '');
     
-    const listData: CompanyListData = JSON.parse(cleanJsonText);
+    let listData: CompanyListData;
+    try {
+      listData = JSON.parse(cleanJsonText);
+    } catch (parseError) {
+      throw new Error(`JSON parse error: ${parseError instanceof Error ? parseError.message : 'Unknown parse error'}`);
+    }
     
-    const companies: Company[] = listData.data.map(item => ({
-      code: item.code,
-      name: item.name,
-      furigana: item.furigana,
-      decisionMonth: item.decisionMonth,
-      registrationDate: item.registrationDate
-    }));
+    if (!listData || !Array.isArray(listData.data)) {
+      throw new Error('Invalid data format: expected object with data array');
+    }
     
-    return { companies, updateTime: listData.updateTime };
+    const companies: Company[] = listData.data.map((item, index) => {
+      if (!item.code || !item.name) {
+        console.warn(`Invalid company data at index ${index}:`, item);
+      }
+      return {
+        code: item.code || '',
+        name: item.name || '',
+        furigana: item.furigana || '',
+        decisionMonth: item.decisionMonth || 0,
+        registrationDate: item.registrationDate || ''
+      };
+    });
+    
+    return { companies, updateTime: listData.updateTime || '' };
   } catch (error) {
-    console.error('Error parsing JSON:', error);
-    return { companies: [], updateTime: '' };
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
+    console.error('Error loading company data:', errorMessage);
+    
+    // 開発環境でより詳細なエラー情報を表示
+    if (process.env.NODE_ENV === 'development') {
+      console.error('Full error details:', error);
+    }
+    
+    return { 
+      companies: [], 
+      updateTime: '', 
+      error: errorMessage 
+    };
   }
 }
 

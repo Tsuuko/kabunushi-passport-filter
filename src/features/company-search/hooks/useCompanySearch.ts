@@ -12,18 +12,33 @@ export function useCompanySearch() {
   const [hasSearched, setHasSearched] = useState(false);
   const [searchTermCount, setSearchTermCount] = useState(0);
   const [updateTime, setUpdateTime] = useState('');
+  const [error, setError] = useState<string | null>(null);
+  const [retryCount, setRetryCount] = useState(0);
 
   useEffect(() => {
     const loadCompanies = async () => {
       setIsLoading(true);
-      const { companies, updateTime } = await parseJSON();
+      setError(null);
+      
+      const { companies, updateTime, error: loadError } = await parseJSON();
+      
+      if (loadError) {
+        setError(loadError);
+        // データが空の場合はリトライを提案
+        if (companies.length === 0 && retryCount < 3) {
+          console.log(`データ読み込み失敗、リトライ可能 (${retryCount + 1}/3)`);
+        }
+      } else {
+        setRetryCount(0); // 成功時はリトライカウントをリセット
+      }
+      
       setCompanies(companies);
       setUpdateTime(updateTime);
       setIsLoading(false);
     };
 
     loadCompanies();
-  }, []);
+  }, [retryCount]);
 
   const search = async (input: string, fuzzySearch: boolean = true) => {
     if (!input.trim()) {
@@ -49,6 +64,12 @@ export function useCompanySearch() {
     setSearchTermCount(0);
   };
 
+  const retry = () => {
+    if (retryCount < 3) {
+      setRetryCount(prev => prev + 1);
+    }
+  };
+
   return {
     companies,
     searchResults,
@@ -57,7 +78,10 @@ export function useCompanySearch() {
     hasSearched,
     searchTermCount,
     updateTime,
+    error,
+    canRetry: retryCount < 3,
     search,
-    clearSearch
+    clearSearch,
+    retry
   };
 }
