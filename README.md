@@ -118,3 +118,7 @@ public/
 このNext.jsアプリケーションをデプロイする最も簡単な方法は、Next.jsの作成者による [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) を使用することです。
 
 詳細については、[Next.jsデプロイメントドキュメント](https://nextjs.org/docs/app/building-your-application/deploying)をご確認ください。
+
+## ライセンス
+
+このプロジェクトは [MIT License](LICENSE) の下で公開されています。
