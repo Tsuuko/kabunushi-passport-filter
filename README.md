@@ -2,6 +2,8 @@
 
 株主パスポート参加企業を証券コードまたは企業名で検索できるWebアプリケーションです。
 
+🔗 https://kabu-passport.tsuuko.dev/
+
 ## 機能
 
 - **企業検索**: 証券コード・企業名による検索
@@ -114,6 +116,14 @@ public/
 - 前株・後株両対応（「コロワイド」→「株式会社 コロワイド」がヒット）
 
 ## デプロイ
+
+### 本番環境
+
+このアプリケーションは以下のURLでアクセスできます：
+- **URL**: https://kabu-passport.tsuuko.dev/
+- **ホスティング**: 自動デプロイ設定済み
+
+### 自分でデプロイする場合
 
 このNext.jsアプリケーションをデプロイする最も簡単な方法は、Next.jsの作成者による [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) を使用することです。
 
