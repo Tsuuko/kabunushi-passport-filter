@@ -6,14 +6,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 - `pnpm dev` - Start development server with Turbopack (preferred)
 - `pnpm build` - Build the application for production
-- `pnpm start` - Start production server  
+- `pnpm start` - Start production server
 - `pnpm lint` - Run oxlint to check code quality
+- `pnpm format` - Format code with Prettier
+- `pnpm format:check` - Check code formatting
+- `pnpm generate:ogp` - Generate OGP images from SVG sources
 
 ## Project Architecture
 
 This is a Next.js 15 application using the App Router architecture with TypeScript and Tailwind CSS v4.
 
 **Key Structure:**
+
 - `src/app/` - App Router pages and layouts
 - `src/app/layout.tsx` - Root layout with metadata, fonts, and lang configuration
 - `src/app/page.tsx` - Homepage component with search functionality
@@ -21,14 +25,18 @@ This is a Next.js 15 application using the App Router architecture with TypeScri
 - `src/components/` - Shared UI components (Footer)
 
 **Technology Stack:**
+
 - Next.js 15.3.3 with App Router
 - React 19
 - TypeScript 5 with strict mode
 - Tailwind CSS v4 with PostCSS
 - Geist font family (Sans and Mono variants)
 - oxlint for fast linting
+- Prettier for code formatting
+- Sharp for image processing
 
 **Import Aliases:**
+
 - `@/*` maps to `./src/*` for cleaner imports
 
 The project uses pnpm as the package manager and is configured for modern React development with strict TypeScript settings.
@@ -36,11 +44,13 @@ The project uses pnpm as the package manager and is configured for modern React 
 ## 株主パスポート検索Webアプリケーション
 
 ### 概要
+
 株主パスポート参加企業を証券コードまたは企業名で検索できるWebアプリケーション。
 
 ### 実装済み機能
+
 - ✅ **企業検索**: 証券コード・企業名による検索
-- ✅ **複数検索**: カンマ・改行区切りでの複数企業同時検索  
+- ✅ **複数検索**: カンマ・改行区切りでの複数企業同時検索
 - ✅ **あいまい検索**: ON/OFF切り替え可能な部分マッチ検索
 - ✅ **株式会社省略**: あいまい検索OFF時も「光フード」→「光フードサービス株式会社」対応
 - ✅ **リアルタイム検索**: 入力と同時に検索結果更新
@@ -50,16 +60,22 @@ The project uses pnpm as the package manager and is configured for modern React 
 - ✅ **0件メッセージ**: 該当なしの場合の適切な案内
 - ✅ **レスポンシブ対応**: PC・モバイル両対応
 - ✅ **フッター**: GitHub・Xアカウントリンク付き
+- ✅ **OGP対応**: SNS共有時の美しい表示
+- ✅ **SEO最適化**: 構造化データ、メタデータ設定
+- ✅ **Twitter Cards**: Twitter専用の最適化
+- ✅ **コードフォーマット**: Prettier導入
 
 ### データ構造
+
 JSONCファイル (`public/list.jsonc`) で企業データを管理:
+
 ```json
 {
   "updateTime": "2025-06-15",
   "data": [
     {
       "code": "138A",
-      "name": "光フードサービス株式会社", 
+      "name": "光フードサービス株式会社",
       "furigana": "ひかりふーどさーびす",
       "decisionMonth": 11,
       "registrationDate": ""
@@ -69,16 +85,20 @@ JSONCファイル (`public/list.jsonc`) で企業データを管理:
 ```
 
 ### UI設計
+
 1. **ヘッダーエリア**
+
    - データ更新日表示（右上）
    - アプリタイトルと説明
 
 2. **検索入力エリア**
+
    - 企業検索ラベル + あいまい検索チェックボックス
    - textarea（複数行入力対応）
    - クリアボタン（×アイコン）
 
 3. **検索結果表示**
+
    - 入力件数/ヒット数の統計表示
    - カード形式での企業情報表示
    - 企業コード（青背景バッジ）、会社名、ふりがな、決算月
@@ -88,6 +108,7 @@ JSONCファイル (`public/list.jsonc`) で企業データを管理:
    - GitHub・Xアカウントリンク
 
 ### 技術構成
+
 - Next.js 15 (App Router)
 - TypeScript 5 (strict mode)
 - Tailwind CSS v4
@@ -96,6 +117,7 @@ JSONCファイル (`public/list.jsonc`) で企業データを管理:
 - インメモリ検索（高速）
 
 ### ディレクトリ構造
+
 ```
 src/
 ├── app/
@@ -103,7 +125,8 @@ src/
 │   ├── page.tsx           # メインページ（検索UI）
 │   └── globals.css        # グローバルスタイル
 ├── components/
-│   └── Footer.tsx         # フッターコンポーネント
+│   ├── Footer.tsx         # フッターコンポーネント
+│   └── StructuredData.tsx # 構造化データ（JSON-LD）
 └── features/
     └── company-search/
         ├── components/
@@ -118,23 +141,58 @@ src/
             └── csvParser.ts       # JSON解析・検索機能
 
 public/
+├── images/
+│   ├── ogp.png           # OGP画像（1200x630px）
+│   ├── ogp.svg           # OGP画像ソース
+│   ├── twitter-summary.png # Twitter用OGP画像（400x400px）
+│   └── twitter-summary.svg # Twitter用OGP画像ソース
 ├── list.jsonc            # 企業データ（JSONC形式）
-├── favicon.svg          # SVGファビコン
-└── apple-touch-icon.png # iOS/Android用アイコン
+└── favicon.svg          # SVGファビコン
+
+scripts/
+└── generate-ogp.js     # OGP画像生成スクリプト
 ```
 
 ### 検索仕様
+
 **あいまい検索ON（デフォルト）:**
+
 - 部分マッチ検索
 - 「光フード」→「光フードサービス株式会社」ヒット
 
 **あいまい検索OFF:**
+
 - 完全一致検索
 - 株式会社省略対応（「光フード」→「光フードサービス株式会社」ヒット）
 - 前株・後株両対応（「コロワイド」→「株式会社 コロワイド」ヒット）
 
 ### メタデータ設定
+
 - タイトル: "株主パスポート企業検索"
 - 説明: "証券コードまたは企業名から株主パスポート参加企業を検索できるWebアプリケーション"
 - 言語: ja (日本語)
 - ファビコン: SVG形式
+
+### OGP・SEO対応
+
+**OGP画像:**
+- 通常のOGP: 1200x630px（Facebook、LinkedIn等）
+- Twitter Cards: 400x400px（Twitter専用、summary形式）
+- SVGソースから自動生成
+
+**メタデータ:**
+- Open Graph設定（Facebook、LinkedIn等）
+- Twitter Cards設定（@_Tsuuko_）
+- 構造化データ（JSON-LD）
+- SEO最適化（keywords、robots等）
+
+**コードフォーマット:**
+- Prettier設定（singleQuote: true）
+- 自動フォーマット対応
+- .prettierignore設定済み
+
+### デプロイ情報
+
+- **本番URL**: https://kabu-passport.tsuuko.dev/
+- **自動デプロイ**: 設定済み
+- **リポジトリ**: https://github.com/Tsuuko/kabunushi-passport-filter

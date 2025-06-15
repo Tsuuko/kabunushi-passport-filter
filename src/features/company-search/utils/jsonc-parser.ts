@@ -105,14 +105,14 @@ export function parseJSONC<T>(text: string): ParseResult<T> {
     if (typeof text !== 'string') {
       return {
         data: null,
-        error: 'Input must be a string'
+        error: 'Input must be a string',
       };
     }
 
     if (!text.trim()) {
       return {
         data: null,
-        error: 'Input is empty'
+        error: 'Input is empty',
       };
     }
 
@@ -124,12 +124,12 @@ export function parseJSONC<T>(text: string): ParseResult<T> {
 
     return {
       data,
-      error: null
+      error: null,
     };
   } catch (error) {
     return {
       data: null,
-      error: error instanceof Error ? error.message : 'Unknown parsing error'
+      error: error instanceof Error ? error.message : 'Unknown parsing error',
     };
   }
 }
@@ -139,10 +139,13 @@ export function parseJSONC<T>(text: string): ParseResult<T> {
  * @param text JSONCテキスト
  * @returns 妥当性チェック結果
  */
-export function validateJSONC(text: string): { isValid: boolean; error?: string } {
+export function validateJSONC(text: string): {
+  isValid: boolean;
+  error?: string;
+} {
   const result = parseJSONC(text);
   return {
     isValid: result.error === null,
-    error: result.error || undefined
+    error: result.error || undefined,
   };
 }

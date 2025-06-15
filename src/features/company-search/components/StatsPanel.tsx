@@ -22,7 +22,7 @@ export function StatsPanel({ stats, onClearCache }: StatsPanelProps) {
               {stats.totalCompanies.toLocaleString()}社
             </span>
           </div>
-          
+
           <div className="text-sm">
             <span className="text-blue-700 font-medium">検索キャッシュ:</span>
             <span className="ml-1 text-blue-900 font-semibold">
@@ -30,7 +30,7 @@ export function StatsPanel({ stats, onClearCache }: StatsPanelProps) {
             </span>
           </div>
         </div>
-        
+
         {stats.cacheSize > 0 && (
           <button
             onClick={onClearCache}
@@ -41,10 +41,11 @@ export function StatsPanel({ stats, onClearCache }: StatsPanelProps) {
           </button>
         )}
       </div>
-      
+
       {stats.cacheSize > 10 && (
         <div className="mt-2 text-xs text-blue-600">
-          💡 多くの検索がキャッシュされています。パフォーマンスが向上しています。
+          💡
+          多くの検索がキャッシュされています。パフォーマンスが向上しています。
         </div>
       )}
     </div>

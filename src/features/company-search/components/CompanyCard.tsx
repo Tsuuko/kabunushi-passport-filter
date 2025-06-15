@@ -19,12 +19,8 @@ export function CompanyCard({ company }: CompanyCardProps) {
               </span>
             )}
           </div>
-          <h3 className="font-semibold text-gray-900 mb-1">
-            {company.name}
-          </h3>
-          <p className="text-sm text-gray-600 mb-2">
-            {company.furigana}
-          </p>
+          <h3 className="font-semibold text-gray-900 mb-1">{company.name}</h3>
+          <p className="text-sm text-gray-600 mb-2">{company.furigana}</p>
           <p className="text-sm text-gray-500">
             決算月: {company.decisionMonth}月
           </p>

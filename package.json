@@ -9,6 +9,8 @@
     "start": "next start",
     "lint": "oxlint src",
     "lint:next": "next lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "generate:ogp": "node scripts/generate-ogp.js"
   },
   "dependencies": {
@@ -23,6 +25,7 @@
     "@types/react-dom": "^19",
     "@types/sharp": "^0.32.0",
     "oxlint": "^1.1.0",
+    "prettier": "^3.5.3",
     "sharp": "^0.34.2",
     "tailwindcss": "^4",
     "typescript": "^5"

@@ -7,7 +7,7 @@
 ## 機能
 
 - **企業検索**: 証券コード・企業名による検索
-- **複数検索**: カンマ・改行区切りでの複数企業同時検索  
+- **複数検索**: カンマ・改行区切りでの複数企業同時検索
 - **あいまい検索**: ON/OFF切り替え可能な部分マッチ検索
 - **株式会社省略対応**: あいまい検索OFF時も「光フード」→「光フードサービス株式会社」に対応
 - **リアルタイム検索**: 入力と同時に検索結果更新
@@ -52,6 +52,15 @@ pnpm start
 
 # コードの品質チェック
 pnpm lint
+
+# コードフォーマット
+pnpm format
+
+# フォーマットチェック
+pnpm format:check
+
+# OGP画像生成
+pnpm generate:ogp
 ```
 
 ## 技術スタック
@@ -61,6 +70,8 @@ pnpm lint
 - **スタイリング**: Tailwind CSS v4
 - **フォント**: Geist (Sans & Mono)
 - **リンター**: oxlint
+- **フォーマッター**: Prettier
+- **画像処理**: Sharp
 - **パッケージマネージャー**: pnpm
 
 ## プロジェクト構成
@@ -72,7 +83,8 @@ src/
 │   ├── page.tsx           # メインページ
 │   └── globals.css        # グローバルスタイル
 ├── components/
-│   └── Footer.tsx         # フッターコンポーネント
+│   ├── Footer.tsx         # フッターコンポーネント
+│   └── StructuredData.tsx # 構造化データ
 └── features/
     └── company-search/
         ├── components/    # 検索関連コンポーネント
@@ -81,8 +93,16 @@ src/
         └── utils/        # ユーティリティ関数
 
 public/
+├── images/
+│   ├── ogp.png           # OGP画像
+│   ├── ogp.svg           # OGP画像ソース
+│   ├── twitter-summary.png # Twitter用OGP画像
+│   └── twitter-summary.svg # Twitter用OGP画像ソース
 ├── list.jsonc           # 企業データ
 └── favicon.svg         # ファビコン
+
+scripts/
+└── generate-ogp.js     # OGP画像生成スクリプト
 ```
 
 ## データ形式
@@ -95,7 +115,7 @@ public/
   "data": [
     {
       "code": "138A",
-      "name": "光フードサービス株式会社", 
+      "name": "光フードサービス株式会社",
       "furigana": "ひかりふーどさーびす",
       "decisionMonth": 11,
       "registrationDate": ""
@@ -107,19 +127,41 @@ public/
 ## 検索仕様
 
 ### あいまい検索ON（デフォルト）
+
 - 部分マッチ検索
 - 「光フード」→「光フードサービス株式会社」がヒット
 
 ### あいまい検索OFF
+
 - 完全一致検索
 - 株式会社省略対応（「光フード」→「光フードサービス株式会社」がヒット）
 - 前株・後株両対応（「コロワイド」→「株式会社 コロワイド」がヒット）
+
+## SEO・OGP対応
+
+### OGP画像
+- **通常のOGP**: 1200x630px、Facebook・LinkedIn等で使用
+- **Twitter Cards**: 400x400px、Twitter専用の小さいカード
+- **自動生成**: SVGからPNG形式に変換
+
+### メタデータ
+- **Open Graph**: SNSでの美しい表示
+- **Twitter Cards**: Twitter専用の最適化
+- **構造化データ**: JSON-LDでGoogleの理解を向上
+- **SEO最適化**: キーワード、robots設定等
+
+### 画像生成
+```bash
+# OGP画像を再生成
+pnpm generate:ogp
+```
 
 ## デプロイ
 
 ### 本番環境
 
 このアプリケーションは以下のURLでアクセスできます：
+
 - **URL**: https://kabu-passport.tsuuko.dev/
 - **ホスティング**: 自動デプロイ設定済み
 

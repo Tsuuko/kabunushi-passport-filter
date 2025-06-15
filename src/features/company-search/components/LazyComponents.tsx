@@ -10,17 +10,17 @@ const LoadingSpinner = () => (
 );
 
 // 仮想化検索結果コンポーネントの遅延読み込み
-const LazyVirtualizedSearchResults = lazy(() => 
-  import('./VirtualizedSearchResults').then(module => ({
-    default: module.VirtualizedSearchResults
-  }))
+const LazyVirtualizedSearchResults = lazy(() =>
+  import('./VirtualizedSearchResults').then((module) => ({
+    default: module.VirtualizedSearchResults,
+  })),
 );
 
 // 統計情報コンポーネントの遅延読み込み
-const LazyStatsPanel = lazy(() => 
-  import('./StatsPanel').then(module => ({
-    default: module.StatsPanel
-  }))
+const LazyStatsPanel = lazy(() =>
+  import('./StatsPanel').then((module) => ({
+    default: module.StatsPanel,
+  })),
 );
 
 // エクスポート用のラッパーコンポーネント
@@ -31,7 +31,9 @@ interface LazyVirtualizedSearchResultsProps {
   searchTermCount?: number;
 }
 
-export function LazyVirtualizedSearchResultsWrapper(props: LazyVirtualizedSearchResultsProps) {
+export function LazyVirtualizedSearchResultsWrapper(
+  props: LazyVirtualizedSearchResultsProps,
+) {
   return (
     <Suspense fallback={<LoadingSpinner />}>
       <LazyVirtualizedSearchResults {...props} />

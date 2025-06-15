@@ -6,18 +6,18 @@ import { useCompanySearch } from '@/features/company-search/hooks/useCompanySear
 import { Footer } from '@/components/Footer';
 
 export default function Home() {
-  const { 
-    searchResults, 
-    isSearching, 
-    hasSearched, 
-    searchTermCount, 
-    updateTime, 
-    error, 
-    canRetry, 
+  const {
+    searchResults,
+    isSearching,
+    hasSearched,
+    searchTermCount,
+    updateTime,
+    error,
+    canRetry,
     isLoading,
-    search, 
-    clearSearch, 
-    retry 
+    search,
+    clearSearch,
+    retry,
   } = useCompanySearch();
 
   return (
@@ -31,7 +31,7 @@ export default function Home() {
               </span>
             </div>
           )}
-          
+
           <header className="text-center mb-8">
             <h1 className="text-3xl font-bold text-gray-900 mb-2">
               株主パスポート企業検索
@@ -45,8 +45,16 @@ export default function Home() {
             <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <svg className="h-5 w-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                  <svg
+                    className="h-5 w-5 text-red-400"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+                      clipRule="evenodd"
+                    />
                   </svg>
                 </div>
                 <div className="ml-3 flex-1">
@@ -69,23 +77,23 @@ export default function Home() {
             </div>
           )}
 
-          <SearchForm 
-            onSearch={(input, fuzzySearch) => search(input, fuzzySearch)} 
-            isSearching={isSearching} 
-            onClear={clearSearch} 
+          <SearchForm
+            onSearch={(input, fuzzySearch) => search(input, fuzzySearch)}
+            isSearching={isSearching}
+            onClear={clearSearch}
           />
 
           <div className="mt-8">
-            <SearchResults 
-              results={searchResults} 
-              isLoading={isLoading} 
-              hasSearched={hasSearched} 
+            <SearchResults
+              results={searchResults}
+              isLoading={isLoading}
+              hasSearched={hasSearched}
               searchTermCount={searchTermCount}
             />
           </div>
         </div>
       </div>
-      
+
       <Footer />
     </div>
   );

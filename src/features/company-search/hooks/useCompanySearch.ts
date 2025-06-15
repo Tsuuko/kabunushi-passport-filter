@@ -2,7 +2,11 @@
 
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { Company } from '../types/company';
-import { parseJSON, searchCompanies, parseSearchInput } from '../utils/csvParser';
+import {
+  parseJSON,
+  searchCompanies,
+  parseSearchInput,
+} from '../utils/csvParser';
 import { SEARCH_CONFIG } from '../constants/config';
 
 // 検索キャッシュの型定義
@@ -26,19 +30,24 @@ export function useCompanySearch() {
     const loadCompanies = async () => {
       setIsLoading(true);
       setError(null);
-      
+
       const { companies, updateTime, error: loadError } = await parseJSON();
-      
+
       if (loadError) {
         setError(loadError);
         // データが空の場合はリトライを提案
-        if (companies.length === 0 && retryCount < SEARCH_CONFIG.MAX_RETRY_COUNT) {
-          console.log(`データ読み込み失敗、リトライ可能 (${retryCount + 1}/${SEARCH_CONFIG.MAX_RETRY_COUNT})`);
+        if (
+          companies.length === 0 &&
+          retryCount < SEARCH_CONFIG.MAX_RETRY_COUNT
+        ) {
+          console.log(
+            `データ読み込み失敗、リトライ可能 (${retryCount + 1}/${SEARCH_CONFIG.MAX_RETRY_COUNT})`,
+          );
         }
       } else {
         setRetryCount(0); // 成功時はリトライカウントをリセット
       }
-      
+
       setCompanies(companies);
       setUpdateTime(updateTime);
       setIsLoading(false);
@@ -48,49 +57,55 @@ export function useCompanySearch() {
   }, [retryCount]);
 
   // 検索キーを生成する関数
-  const generateSearchKey = useCallback((input: string, fuzzySearch: boolean) => {
-    return `${input.trim().toLowerCase()}:${fuzzySearch}`;
-  }, []);
+  const generateSearchKey = useCallback(
+    (input: string, fuzzySearch: boolean) => {
+      return `${input.trim().toLowerCase()}:${fuzzySearch}`;
+    },
+    [],
+  );
 
   // メモ化された検索関数
-  const search = useCallback(async (input: string, fuzzySearch: boolean = true) => {
-    if (!input.trim()) {
-      setSearchResults([]);
-      setHasSearched(false);
-      setSearchTermCount(0);
-      return;
-    }
+  const search = useCallback(
+    async (input: string, fuzzySearch: boolean = true) => {
+      if (!input.trim()) {
+        setSearchResults([]);
+        setHasSearched(false);
+        setSearchTermCount(0);
+        return;
+      }
 
-    const searchKey = generateSearchKey(input, fuzzySearch);
-    
-    // キャッシュから結果を取得
-    if (searchCache[searchKey]) {
-      const searchTerms = parseSearchInput(input);
-      setSearchResults(searchCache[searchKey]);
+      const searchKey = generateSearchKey(input, fuzzySearch);
+
+      // キャッシュから結果を取得
+      if (searchCache[searchKey]) {
+        const searchTerms = parseSearchInput(input);
+        setSearchResults(searchCache[searchKey]);
+        setHasSearched(true);
+        setSearchTermCount(searchTerms.length);
+        return;
+      }
+
+      setIsSearching(true);
       setHasSearched(true);
-      setSearchTermCount(searchTerms.length);
-      return;
-    }
 
-    setIsSearching(true);
-    setHasSearched(true);
-    
-    // 検索処理を非同期で実行（UIブロッキングを防ぐ）
-    await new Promise(resolve => setTimeout(resolve, 0));
-    
-    const searchTerms = parseSearchInput(input);
-    setSearchTermCount(searchTerms.length);
-    const results = searchCompanies(companies, searchTerms, fuzzySearch);
-    
-    // 結果をキャッシュに保存
-    setSearchCache(prev => ({
-      ...prev,
-      [searchKey]: results
-    }));
-    
-    setSearchResults(results);
-    setIsSearching(false);
-  }, [companies, searchCache, generateSearchKey]);
+      // 検索処理を非同期で実行（UIブロッキングを防ぐ）
+      await new Promise((resolve) => setTimeout(resolve, 0));
+
+      const searchTerms = parseSearchInput(input);
+      setSearchTermCount(searchTerms.length);
+      const results = searchCompanies(companies, searchTerms, fuzzySearch);
+
+      // 結果をキャッシュに保存
+      setSearchCache((prev) => ({
+        ...prev,
+        [searchKey]: results,
+      }));
+
+      setSearchResults(results);
+      setIsSearching(false);
+    },
+    [companies, searchCache, generateSearchKey],
+  );
 
   const clearSearch = useCallback(() => {
     setSearchResults([]);
@@ -100,7 +115,7 @@ export function useCompanySearch() {
 
   const retry = useCallback(() => {
     if (retryCount < SEARCH_CONFIG.MAX_RETRY_COUNT) {
-      setRetryCount(prev => prev + 1);
+      setRetryCount((prev) => prev + 1);
     }
   }, [retryCount]);
 
@@ -110,11 +125,14 @@ export function useCompanySearch() {
   }, []);
 
   // メモ化された統計情報
-  const stats = useMemo(() => ({
-    totalCompanies: companies.length,
-    cacheSize: Object.keys(searchCache).length,
-    hasData: companies.length > 0
-  }), [companies.length, searchCache]);
+  const stats = useMemo(
+    () => ({
+      totalCompanies: companies.length,
+      cacheSize: Object.keys(searchCache).length,
+      hasData: companies.length > 0,
+    }),
+    [companies.length, searchCache],
+  );
 
   return {
     companies,
@@ -130,6 +148,6 @@ export function useCompanySearch() {
     search,
     clearSearch,
     retry,
-    clearCache
+    clearCache,
   };
 }

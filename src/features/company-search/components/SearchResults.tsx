@@ -8,7 +8,12 @@ interface SearchResultsProps {
   searchTermCount?: number;
 }
 
-export function SearchResults({ results, isLoading, hasSearched = false, searchTermCount = 0 }: SearchResultsProps) {
+export function SearchResults({
+  results,
+  isLoading,
+  hasSearched = false,
+  searchTermCount = 0,
+}: SearchResultsProps) {
   if (isLoading) {
     return (
       <div className="text-center py-8">
@@ -39,9 +44,7 @@ export function SearchResults({ results, isLoading, hasSearched = false, searchT
   return (
     <div className="space-y-4">
       <div className="mb-4">
-        <h2 className="text-xl font-semibold text-gray-900">
-          検索結果
-        </h2>
+        <h2 className="text-xl font-semibold text-gray-900">検索結果</h2>
         <p className="text-sm text-gray-600">
           入力件数: {searchTermCount}件 / ヒット数: {results.length}件
         </p>
