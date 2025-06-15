@@ -1,0 +1,5516 @@
+// 2025-06-15更新
+
+{
+  "updateTime": "2025-06-15",
+  "data": [
+    {
+      "code": "138A",
+      "name": "光フードサービス株式会社",
+      "furigana": "ひかりふーどさーびす",
+      "decisionMonth": 11,
+      "registrationDate": ""
+    },
+    {
+      "code": "1420",
+      "name": "サンヨーホームズ株式会社",
+      "furigana": "さんようほーむず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1435",
+      "name": "株式会社 ｒｏｂｏｔ　ｈｏｍｅ",
+      "furigana": "ろぼっと　ほーむ",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "147A",
+      "name": "株式会社 ソラコム",
+      "furigana": "そらこむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "156A",
+      "name": "マテリアルグループ株式会社",
+      "furigana": "まてりあるぐるーぷ",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "165A",
+      "name": "ＳＢＩレオスひふみ株式会社",
+      "furigana": "えすびーあいれおすひふみ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1712",
+      "name": "株式会社 ダイセキ環境ソリューション",
+      "furigana": "だいせきかんきょうそりゅーしょん",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "1738",
+      "name": "株式会社 ＮＩＴＴＯＨ",
+      "furigana": "にっとー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1766",
+      "name": "東建コーポレーション株式会社",
+      "furigana": "とうけんこーぽれーしょん",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "1768",
+      "name": "株式会社 ソネック",
+      "furigana": "そねっく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1776",
+      "name": "三井住建道路株式会社",
+      "furigana": "みついすみけんどうろ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1777",
+      "name": "川崎設備工業株式会社",
+      "furigana": "かわさきせつびこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1788",
+      "name": "株式会社 三東工業社",
+      "furigana": "さんとうこうぎょうしゃ",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "1795",
+      "name": "株式会社 マサル",
+      "furigana": "まさる",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "1812",
+      "name": "鹿島建設株式会社",
+      "furigana": "かじまけんせつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1821",
+      "name": "三井住友建設株式会社",
+      "furigana": "みついすみともけんせつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1822",
+      "name": "大豊建設株式会社",
+      "furigana": "だいほうけんせつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1826",
+      "name": "佐田建設株式会社",
+      "furigana": "さたけんせつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1833",
+      "name": "株式会社 奥村組",
+      "furigana": "おくむらぐみ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1848",
+      "name": "株式会社 富士ピー・エス",
+      "furigana": "ふじぴーえす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1850",
+      "name": "南海辰村建設株式会社",
+      "furigana": "なんかいたつむらけんせつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1852",
+      "name": "株式会社 淺沼組",
+      "furigana": "あさぬまぐみ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1861",
+      "name": "株式会社 熊谷組",
+      "furigana": "くまがいぐみ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1867",
+      "name": "株式会社 植木組",
+      "furigana": "うえきぐみ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1869",
+      "name": "名工建設株式会社",
+      "furigana": "めいこうけんせつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1870",
+      "name": "矢作建設工業株式会社",
+      "furigana": "やはぎけんせつこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1888",
+      "name": "若築建設株式会社",
+      "furigana": "わかちくけんせつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1898",
+      "name": "世紀東急工業株式会社",
+      "furigana": "せいきとうきゅうこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1905",
+      "name": "株式会社 テノックス",
+      "furigana": "てのっくす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1925",
+      "name": "大和ハウス工業株式会社",
+      "furigana": "だいわはうすこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1926",
+      "name": "ライト工業株式会社",
+      "furigana": "らいとこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1929",
+      "name": "日特建設株式会社",
+      "furigana": "にっとくけんせつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1930",
+      "name": "北陸電気工事株式会社",
+      "furigana": "ほくりくでんきこうじ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1938",
+      "name": "日本リーテック株式会社",
+      "furigana": "にっぽんりーてっく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1942",
+      "name": "株式会社 関電工",
+      "furigana": "かんでんこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1946",
+      "name": "株式会社 トーエネック",
+      "furigana": "とーえねっく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1949",
+      "name": "住友電設株式会社",
+      "furigana": "すみともでんせつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1952",
+      "name": "新日本空調株式会社",
+      "furigana": "しんにっぽんくうちょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1960",
+      "name": "株式会社 サンテック",
+      "furigana": "さんてっく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1961",
+      "name": "三機工業株式会社",
+      "furigana": "さんきこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1967",
+      "name": "株式会社 ヤマト",
+      "furigana": "やまと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "1976",
+      "name": "明星工業株式会社",
+      "furigana": "めいせいこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2004",
+      "name": "昭和産業株式会社",
+      "furigana": "しょうわさんぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "205A",
+      "name": "株式会社 ロゴスホールディングス",
+      "furigana": "ろごすほーるでぃんぐす",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "2060",
+      "name": "フィード・ワン株式会社",
+      "furigana": "ふぃーど・わん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2109",
+      "name": "ＤＭ三井製糖株式会社",
+      "furigana": "でぃーえむみついせいとう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2117",
+      "name": "ウェルネオシュガー株式会社",
+      "furigana": "うぇるねおしゅがー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "211A",
+      "name": "株式会社 カドス・コーポレーション",
+      "furigana": "かどす・こーぽれーしょん",
+      "decisionMonth": 7,
+      "registrationDate": ""
+    },
+    {
+      "code": "2122",
+      "name": "株式会社 インタースペース",
+      "furigana": "いんたーすぺーす",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "2139",
+      "name": "株式会社 中広",
+      "furigana": "ちゅうこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2154",
+      "name": "株式会社 オープンアップグループ",
+      "furigana": "おーぷんあっぷぐるーぷ",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "2156",
+      "name": "セーラー広告株式会社",
+      "furigana": "せーらーこうこく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2206",
+      "name": "江崎グリコ株式会社",
+      "furigana": "えざきぐりこ",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "2208",
+      "name": "株式会社 ブルボン",
+      "furigana": "ぶるぼん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2216",
+      "name": "カンロ株式会社",
+      "furigana": "かんろ",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "2281",
+      "name": "プリマハム株式会社",
+      "furigana": "ぷりまはむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2288",
+      "name": "丸大食品株式会社",
+      "furigana": "まるだいしょくひん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2292",
+      "name": "エスフーズ株式会社",
+      "furigana": "えすふーず",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "2293",
+      "name": "滝沢ハム株式会社",
+      "furigana": "たきざわはむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2296",
+      "name": "伊藤ハム米久ホールディングス株式会社",
+      "furigana": "いとうはむよねきゅうほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2301",
+      "name": "株式会社 学情",
+      "furigana": "がくじょう",
+      "decisionMonth": 10,
+      "registrationDate": ""
+    },
+    {
+      "code": "2303",
+      "name": "株式会社 ドーン",
+      "furigana": "どーん",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "2304",
+      "name": "株式会社 ＣＳＳホールディングス",
+      "furigana": "しーえすえすほーるでぃんぐす",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "2317",
+      "name": "株式会社 システナ",
+      "furigana": "しすてな",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2321",
+      "name": "株式会社 ソフトフロントホールディングス",
+      "furigana": "そふとふろんとほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2323",
+      "name": "株式会社 ｆｏｎｆｕｎ",
+      "furigana": "ふぉんふぁん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2327",
+      "name": "日鉄ソリューションズ株式会社",
+      "furigana": "にってつそりゅーしょんず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2331",
+      "name": "綜合警備保障株式会社",
+      "furigana": "そうごうけいびほしょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2338",
+      "name": "クオンタムソリューションズ株式会社",
+      "furigana": "くおんたむそりゅーしょんず",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "2340",
+      "name": "株式会社 極楽湯ホールディングス",
+      "furigana": "ごくらくゆほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2344",
+      "name": "平安レイサービス株式会社",
+      "furigana": "へいあんれいさーびす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2385",
+      "name": "株式会社 総医研ホールディングス",
+      "furigana": "そういけんほーるでぃんぐす",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "2404",
+      "name": "株式会社 鉄人化ホールディングス",
+      "furigana": "てつじんかほーるでぃんぐす",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "2438",
+      "name": "株式会社 アスカネット",
+      "furigana": "あすかねっと",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "2454",
+      "name": "株式会社 オールアバウト",
+      "furigana": "おーるあばうと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2459",
+      "name": "アウンコンサルティング株式会社",
+      "furigana": "あうんこんさるてぃんぐ",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "2461",
+      "name": "株式会社 ファンコミュニケーションズ",
+      "furigana": "ふぁんこみゅにけーしょんず",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "2462",
+      "name": "ライク株式会社",
+      "furigana": "らいく",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "2464",
+      "name": "株式会社 Ａｏｂａ－ＢＢＴ",
+      "furigana": "あおばびーびーてぃー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2467",
+      "name": "株式会社 バルクホールディングス",
+      "furigana": "ばるくほーるでぃんぐす",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "246A",
+      "name": "株式会社 アスア",
+      "furigana": "あすあ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2475",
+      "name": "ＷＤＢホールディングス株式会社",
+      "furigana": "だぶりゅーでぃーびーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2477",
+      "name": "手間いらず株式会社",
+      "furigana": "てまいらず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2480",
+      "name": "システム・ロケーション株式会社",
+      "furigana": "しすてむろけーしょん",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "2483",
+      "name": "株式会社 翻訳センター",
+      "furigana": "ほんやくせんたー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2488",
+      "name": "ＪＴＰ株式会社",
+      "furigana": "じぇいてぃーぴー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2502",
+      "name": "アサヒグループホールディングス株式会社",
+      "furigana": "あさひぐるーぷほーるでぃんぐす",
+      "decisionMonth": 12,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "250A",
+      "name": "シマダヤ株式会社",
+      "furigana": "しまだや",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2585",
+      "name": "株式会社 ライフドリンクカンパニー",
+      "furigana": "らいふどりんくかんぱにー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2588",
+      "name": "株式会社 プレミアムウォーターホールディングス",
+      "furigana": "ぷれみあむうぉーたーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2593",
+      "name": "株式会社 伊藤園",
+      "furigana": "いとうえん",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "2594",
+      "name": "キーコーヒー株式会社",
+      "furigana": "きーこーひー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2602",
+      "name": "日清オイリオグループ株式会社",
+      "furigana": "にっしんおいりおぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2607",
+      "name": "不二製油株式会社",
+      "furigana": "ふじせいゆ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "261A",
+      "name": "株式会社 日水コン",
+      "furigana": "につすいこん",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "2667",
+      "name": "株式会社 イメージワン",
+      "furigana": "いめーじわん",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "2669",
+      "name": "カネ美食品株式会社",
+      "furigana": "かねみしょくひん",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "269A",
+      "name": "株式会社 Ｓａｐｅｅｔ",
+      "furigana": "さぴーと",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "2705",
+      "name": "株式会社 大戸屋ホールディングス",
+      "furigana": "おおとやほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2734",
+      "name": "株式会社 サーラコーポレーション",
+      "furigana": "さーらこーぽれーしょん",
+      "decisionMonth": 11,
+      "registrationDate": ""
+    },
+    {
+      "code": "2735",
+      "name": "株式会社 ワッツ",
+      "furigana": "わっつ",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "2750",
+      "name": "石光商事株式会社",
+      "furigana": "いしみつしょうじ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2752",
+      "name": "株式会社 フジオフードグループ本社",
+      "furigana": "ふじおふーどぐるーぷほんしゃ",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "2753",
+      "name": "株式会社 あみやき亭",
+      "furigana": "あみやきてい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2760",
+      "name": "東京エレクトロンデバイス株式会社",
+      "furigana": "とうきょうえれくとろんでばいす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2762",
+      "name": "株式会社 ＳＡＮＫＯ　ＭＡＲＫＥＴＩＮＧ　ＦＯＯＤＳ",
+      "furigana": "さんこーまーけてぃんぐふーず",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "2764",
+      "name": "株式会社 ひらまつ",
+      "furigana": "ひらまつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2767",
+      "name": "円谷フィールズホールディングス株式会社",
+      "furigana": "つぶらやふぃーるずほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2778",
+      "name": "パレモ・ホールディングス株式会社",
+      "furigana": "ぱれも・ほーるでぃんぐす",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "2782",
+      "name": "株式会社 セリア",
+      "furigana": "せりあ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "278A",
+      "name": "Ｔｅｒｒａ　Ｄｒｏｎｅ株式会社",
+      "furigana": "てらどろーん",
+      "decisionMonth": 1,
+      "registrationDate": ""
+    },
+    {
+      "code": "2810",
+      "name": "ハウス食品グループ本社株式会社",
+      "furigana": "はうすしょくひんぐるーぷほんしゃ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2816",
+      "name": "株式会社 ダイショー",
+      "furigana": "だいしょー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2830",
+      "name": "アヲハタ株式会社",
+      "furigana": "あをはた",
+      "decisionMonth": 11,
+      "registrationDate": ""
+    },
+    {
+      "code": "288A",
+      "name": "ラクサス・テクノロジーズ株式会社",
+      "furigana": "らくさす・てくのろじーず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2902",
+      "name": "太陽化学株式会社",
+      "furigana": "たいようかがく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2903",
+      "name": "シノブフーズ株式会社",
+      "furigana": "しのぶふーず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2915",
+      "name": "ケンコーマヨネーズ株式会社",
+      "furigana": "けんこーまよねーず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2919",
+      "name": "株式会社 マルタイ",
+      "furigana": "まるたい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "2924",
+      "name": "イフジ産業株式会社",
+      "furigana": "いふじさんぎょう",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "2930",
+      "name": "株式会社 北の達人コーポレーション",
+      "furigana": "きたのたつじんこーぽれしょん",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "2978",
+      "name": "株式会社 ツクルバ",
+      "furigana": "つくるば",
+      "decisionMonth": 7,
+      "registrationDate": ""
+    },
+    {
+      "code": "2983",
+      "name": "株式会社 アールプランナー",
+      "furigana": "あーるぷらんなー",
+      "decisionMonth": 1,
+      "registrationDate": ""
+    },
+    {
+      "code": "2993",
+      "name": "株式会社 長栄",
+      "furigana": "ちょうえい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "299A",
+      "name": "ｄｅｌｙ株式会社",
+      "furigana": "でりー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3023",
+      "name": "ラサ商事株式会社",
+      "furigana": "らさしょうじ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3028",
+      "name": "株式会社 アルペン",
+      "furigana": "あるぺん",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "3031",
+      "name": "株式会社 ラクーンホールディングス",
+      "furigana": "らくーんほーるでぃんぐす",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "3035",
+      "name": "ケイティケイ株式会社",
+      "furigana": "けいてぃけい",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "3036",
+      "name": "アルコニックス株式会社",
+      "furigana": "あるこにっくす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3038",
+      "name": "株式会社 神戸物産",
+      "furigana": "こうべぶっさん",
+      "decisionMonth": 10,
+      "registrationDate": ""
+    },
+    {
+      "code": "3040",
+      "name": "株式会社 ソリトンシステムズ",
+      "furigana": "そりとんしすてむず",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "3045",
+      "name": "株式会社 カワサキ",
+      "furigana": "かわさき",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "304A",
+      "name": "フォルシア株式会社",
+      "furigana": "ふぉるしあ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3053",
+      "name": "株式会社 ペッパーフードサービス",
+      "furigana": "ぺっぱーふーどさーびす",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "3058",
+      "name": "株式会社 三洋堂ホールディングス",
+      "furigana": "さんようどうほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3059",
+      "name": "ヒラキ株式会社",
+      "furigana": "ひらき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3065",
+      "name": "株式会社 ライフフーズ",
+      "furigana": "らいふふーず",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3070",
+      "name": "株式会社 ジェリービーンズグループ",
+      "furigana": "じぇりーびーんずぐるーぷ",
+      "decisionMonth": 1,
+      "registrationDate": ""
+    },
+    {
+      "code": "3073",
+      "name": "株式会社 ＤＤグループ",
+      "furigana": "でぃーでぃーぐるーぷ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3083",
+      "name": "スターシーズ株式会社",
+      "furigana": "すたーしーず",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3089",
+      "name": "テクノアルファ株式会社",
+      "furigana": "てくのあるふぁ",
+      "decisionMonth": 11,
+      "registrationDate": ""
+    },
+    {
+      "code": "3093",
+      "name": "株式会社 トレジャー・ファクトリー",
+      "furigana": "とれじゃーふぁくとりー",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3101",
+      "name": "東洋紡株式会社",
+      "furigana": "とうようぼう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3109",
+      "name": "シキボウ株式会社",
+      "furigana": "しきぼう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3121",
+      "name": "マーチャント・バンカーズ株式会社",
+      "furigana": "まーちゃんと・ばんかーず",
+      "decisionMonth": 10,
+      "registrationDate": ""
+    },
+    {
+      "code": "3123",
+      "name": "サイボー株式会社",
+      "furigana": "さいぼー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3137",
+      "name": "株式会社 ファンデリー",
+      "furigana": "ふぁんでりー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3151",
+      "name": "株式会社 バイタルケーエスケー・ホールディングス",
+      "furigana": "ばいたるけーえすけーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3161",
+      "name": "アゼアス株式会社",
+      "furigana": "あぜあす",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "3166",
+      "name": "ＯＣＨＩホールディングス株式会社",
+      "furigana": "おちほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3167",
+      "name": "株式会社 ＴＯＫＡＩホールディングス",
+      "furigana": "とうかいほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3175",
+      "name": "株式会社 エー・ピーホールディングス",
+      "furigana": "えーぴーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3180",
+      "name": "株式会社 ビューティガレージ",
+      "furigana": "びゅーてぃがれーじ",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "3184",
+      "name": "ＩＣＤＡホールディングス株式会社",
+      "furigana": "あいしーでぃーえーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3185",
+      "name": "夢展望株式会社",
+      "furigana": "ゆめてんぼう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3205",
+      "name": "株式会社 ダイドーリミテッド",
+      "furigana": "だいどーりみてっど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3223",
+      "name": "株式会社 エスエルディー",
+      "furigana": "えすえるでぃー",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3252",
+      "name": "地主株式会社",
+      "furigana": "じぬし",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "3280",
+      "name": "株式会社 エストラスト",
+      "furigana": "えすとらすと",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3284",
+      "name": "株式会社 フージャースホールディングス",
+      "furigana": "ふーじゃーすほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3289",
+      "name": "東急不動産ホールディングス株式会社",
+      "furigana": "とうきゅうふどうさんほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3306",
+      "name": "日本製麻株式会社",
+      "furigana": "にほんせいま",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3315",
+      "name": "日本コークス工業株式会社",
+      "furigana": "にほんこーくすこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3321",
+      "name": "ミタチ産業株式会社",
+      "furigana": "みたちさんぎょう",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "3370",
+      "name": "株式会社 フジタコーポレーション",
+      "furigana": "ふじたこーぽれーしょん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3388",
+      "name": "明治電機工業株式会社",
+      "furigana": "めいじでんきこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3393",
+      "name": "スターティアホールディングス株式会社",
+      "furigana": "すたーてぃあほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3396",
+      "name": "株式会社 フェリシモ",
+      "furigana": "ふぇりしも",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3402",
+      "name": "東レ株式会社",
+      "furigana": "とうれ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3407",
+      "name": "旭化成株式会社",
+      "furigana": "あさひかせい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "341A",
+      "name": "株式会社 トヨコー",
+      "furigana": "とよこー",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "3447",
+      "name": "信和株式会社",
+      "furigana": "しんわ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3457",
+      "name": "株式会社 Ａｎｄ　Ｄｏホールディングス",
+      "furigana": "あんどどぅほーるでぃんぐす",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "3489",
+      "name": "株式会社 フェイスネットワーク",
+      "furigana": "ふぇいすねっとわーく",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "3494",
+      "name": "株式会社 マリオン",
+      "furigana": "まりおん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3498",
+      "name": "霞ヶ関キャピタル株式会社",
+      "furigana": "かすみがせききゃぴたる",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "3521",
+      "name": "エコナックホールディングス株式会社",
+      "furigana": "えこなっくほーるでぃんぐす",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "3524",
+      "name": "日東製網株式会社",
+      "furigana": "にっとうせいもう",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "3544",
+      "name": "サツドラホールディングス株式会社",
+      "furigana": "さつどらほーるでぃんぐす",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3549",
+      "name": "株式会社 クスリのアオキホールディングス",
+      "furigana": "くすりのあおきほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3557",
+      "name": "ユナイテッド＆コレクティブ株式会社",
+      "furigana": "ゆないてっどあんどこれくてぃぶ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3559",
+      "name": "株式会社 ピーバンドットコム",
+      "furigana": "ぴーばんどっとこむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3562",
+      "name": "株式会社 Ｎｏ．１",
+      "furigana": "なんばーわん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3569",
+      "name": "セーレン株式会社",
+      "furigana": "せーれん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3571",
+      "name": "株式会社 ソトー",
+      "furigana": "そとー",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "3583",
+      "name": "オーベクス株式会社",
+      "furigana": "おーべくす",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3607",
+      "name": "株式会社 クラウディアホールディングス",
+      "furigana": "くらうでぃあほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3627",
+      "name": "テクミラホールディングス株式会社",
+      "furigana": "てくみらほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3628",
+      "name": "株式会社 データホライゾン",
+      "furigana": "でーたほらいぞん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3640",
+      "name": "株式会社 電算",
+      "furigana": "でんさん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3641",
+      "name": "株式会社 パピレス",
+      "furigana": "ぱぴれす",
+      "decisionMonth": 3,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "3645",
+      "name": "株式会社 メディカルネット",
+      "furigana": "めでぃかるねっと",
+      "decisionMonth": 5,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "3646",
+      "name": "株式会社 駅探",
+      "furigana": "えきたん",
+      "decisionMonth": 3,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "3649",
+      "name": "株式会社 ファインデックス",
+      "furigana": "ふぁいんでっくす",
+      "decisionMonth": 12,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "3652",
+      "name": "株式会社 ディジタルメディアプロフェッショナル",
+      "furigana": "でぃじたるめでぃあぷろふぇっしょなる",
+      "decisionMonth": 3,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "3661",
+      "name": "株式会社 エムアップホールディングス",
+      "furigana": "えむあっぷほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3678",
+      "name": "株式会社 メディアドゥ",
+      "furigana": "めでぃあどぅ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3682",
+      "name": "エンカレッジ・テクノロジ株式会社",
+      "furigana": "えんかれっじ・てくのろじ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3686",
+      "name": "株式会社 ディー・エル・イー",
+      "furigana": "でぃー・える・いー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3690",
+      "name": "株式会社 イルグルム",
+      "furigana": "いるぐるむ",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "3712",
+      "name": "株式会社 情報企画",
+      "furigana": "じょうほうきかく",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "3739",
+      "name": "コムシード株式会社",
+      "furigana": "こむしーど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3772",
+      "name": "ウェルス・マネジメント株式会社",
+      "furigana": "うぇるすまねじめんと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3776",
+      "name": "株式会社 ブロードバンドタワー",
+      "furigana": "ぶろーどばんどたわー",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "3793",
+      "name": "株式会社 ドリコム",
+      "furigana": "どりこむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3796",
+      "name": "株式会社 いい生活",
+      "furigana": "いいせいかつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3799",
+      "name": "キーウェアソリューションズ株式会社",
+      "furigana": "きーうえあそりゅーしょんず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3810",
+      "name": "サイバーステップ株式会社",
+      "furigana": "さいばーすてっぷ",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "3836",
+      "name": "株式会社 アバントグループ",
+      "furigana": "あばんとぐるーぷ",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "3845",
+      "name": "株式会社 アイフリークモバイル",
+      "furigana": "あいふりーくもばいる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3851",
+      "name": "株式会社 日本一ソフトウェア",
+      "furigana": "にっぽんいちそふとうぇあ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3858",
+      "name": "株式会社 ユビキタスＡＩ",
+      "furigana": "ゆびきたすえーあい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3861",
+      "name": "王子ホールディングス株式会社",
+      "furigana": "おうじほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3863",
+      "name": "日本製紙株式会社",
+      "furigana": "にっぽんせいし",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3877",
+      "name": "中越パルプ工業株式会社",
+      "furigana": "ちゅうえつぱるぷこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3901",
+      "name": "マークラインズ株式会社",
+      "furigana": "まーくらいんず",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "3903",
+      "name": "株式会社 ｇｕｍｉ",
+      "furigana": "ぐみ",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "3905",
+      "name": "データセクション株式会社",
+      "furigana": "でーたせくしょん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3924",
+      "name": "株式会社 ランドコンピュータ",
+      "furigana": "らんどこんぴゅーた",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3925",
+      "name": "株式会社 ダブルスタンダード",
+      "furigana": "だぶるすたんだーど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3927",
+      "name": "株式会社 フーバーブレイン",
+      "furigana": "ふーばーぶれいん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3929",
+      "name": "ソーシャルワイヤー株式会社",
+      "furigana": "そーしゃるわいやー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3934",
+      "name": "株式会社 ベネフィットジャパン",
+      "furigana": "べねふぃっとじゃぱん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3937",
+      "name": "株式会社 Ｕｂｉｃｏｍホールディングス",
+      "furigana": "ゆびこむほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "3963",
+      "name": "株式会社 シンクロ・フード",
+      "furigana": "しんくろ・ふーど",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3977",
+      "name": "フュージョン株式会社",
+      "furigana": "ふゅーじょん",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "3985",
+      "name": "テモナ株式会社",
+      "furigana": "てもな",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "3996",
+      "name": "サインポスト株式会社",
+      "furigana": "さいんぽすと",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "3997",
+      "name": "株式会社 トレードワークス",
+      "furigana": "とれーどわーくす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4005",
+      "name": "住友化学株式会社",
+      "furigana": "すみともかがく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4008",
+      "name": "住友精化株式会社",
+      "furigana": "すみともせいか",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4012",
+      "name": "株式会社 アクシス",
+      "furigana": "あくしす",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4021",
+      "name": "日産化学株式会社",
+      "furigana": "にっさんかがく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4047",
+      "name": "関東電化工業株式会社",
+      "furigana": "かんとうでんかこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4057",
+      "name": "株式会社 インターファクトリー",
+      "furigana": "いんたーふぁくとりー",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "4061",
+      "name": "デンカ株式会社",
+      "furigana": "でんか",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4062",
+      "name": "イビデン株式会社",
+      "furigana": "いびでん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4072",
+      "name": "株式会社 電算システムホールディングス",
+      "furigana": "でんさんしすてむほーるでぃんぐす",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4076",
+      "name": "株式会社 シイエヌエス",
+      "furigana": "しいえぬえす",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "4088",
+      "name": "エア・ウォーター株式会社",
+      "furigana": "えあうぉーたー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4094",
+      "name": "日本化学産業株式会社",
+      "furigana": "にほんかがくさんぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4100",
+      "name": "戸田工業株式会社",
+      "furigana": "とだこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4113",
+      "name": "田岡化学工業株式会社",
+      "furigana": "たおかかがくこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4168",
+      "name": "株式会社 ヤプリ",
+      "furigana": "やぷり",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4179",
+      "name": "株式会社 ジーネクスト",
+      "furigana": "じーねくすと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4183",
+      "name": "三井化学株式会社",
+      "furigana": "みついかがく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4199",
+      "name": "ワンダープラネット株式会社",
+      "furigana": "わんだーぷらねっと",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "4202",
+      "name": "株式会社 ダイセル",
+      "furigana": "だいせる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4203",
+      "name": "住友ベークライト株式会社",
+      "furigana": "すみともべーくらいと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4216",
+      "name": "旭有機材株式会社",
+      "furigana": "あさひゆうきざい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4247",
+      "name": "ポバール興業株式会社",
+      "furigana": "ぽばーるこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4256",
+      "name": "株式会社 サインド",
+      "furigana": "さいんど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4258",
+      "name": "株式会社 網屋",
+      "furigana": "あみや",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4265",
+      "name": "ＩＧＳ株式会社",
+      "furigana": "いんすてぃてゅーしょんふぉーあぐろーばるそさえてぃ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4270",
+      "name": "株式会社 ＢｅｅＸ",
+      "furigana": "びーえっくす",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "4272",
+      "name": "日本化薬株式会社",
+      "furigana": "にほんかやく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4287",
+      "name": "株式会社 ジャストプランニング",
+      "furigana": "じゃすとぷらんにんぐ",
+      "decisionMonth": 1,
+      "registrationDate": ""
+    },
+    {
+      "code": "4323",
+      "name": "日本システム技術株式会社",
+      "furigana": "にほんしすてむぎじゅつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4331",
+      "name": "株式会社 テイクアンドギヴ・ニーズ",
+      "furigana": "ていくあんどぎう゛にーず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4333",
+      "name": "株式会社 東邦システムサイエンス",
+      "furigana": "とうほうしすてむさいえんす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4344",
+      "name": "ソースネクスト株式会社",
+      "furigana": "そーすねくすと",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4356",
+      "name": "応用技術株式会社",
+      "furigana": "おうようぎじゅつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4362",
+      "name": "日本精化株式会社",
+      "furigana": "にっぽんせいか",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4366",
+      "name": "ダイトーケミックス株式会社",
+      "furigana": "だいとーけみっくす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4367",
+      "name": "広栄化学株式会社",
+      "furigana": "こうえいかがく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4368",
+      "name": "扶桑化学工業株式会社",
+      "furigana": "ふそうかがくこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4373",
+      "name": "シンプレクス・ホールディングス株式会社",
+      "furigana": "しんぷれくす・ほーるでぃんぐす",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "4376",
+      "name": "株式会社 くふうカンパニーホールディングス",
+      "furigana": "くふうかんぱにーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4381",
+      "name": "ビープラッツ株式会社",
+      "furigana": "びーぷらっつ",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "4382",
+      "name": "ＨＥＲＯＺ株式会社",
+      "furigana": "ひーろーず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4386",
+      "name": "株式会社 ＳＩＧグループ",
+      "furigana": "えすあいじーぐるーぷ",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "4387",
+      "name": "株式会社 ＺＵＵ",
+      "furigana": "ずー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4388",
+      "name": "株式会社 エーアイ",
+      "furigana": "えーあい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4396",
+      "name": "株式会社 システムサポートホールディングス",
+      "furigana": "しすてむさぽーとほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4401",
+      "name": "株式会社 ＡＤＥＫＡ",
+      "furigana": "あでか",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "4409",
+      "name": "東邦化学工業株式会社",
+      "furigana": "とうほうかがくこうぎょう",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "4410",
+      "name": "ハリマ化成グループ株式会社",
+      "furigana": "はりまかせいぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4413",
+      "name": "株式会社 ボードルア",
+      "furigana": "ぼーどるあ",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "4424",
+      "name": "株式会社 Ａｍａｚｉａ",
+      "furigana": "あめーじあ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "4425",
+      "name": "Ｋｕｄａｎ株式会社",
+      "furigana": "くだん",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "4427",
+      "name": "株式会社 ＥｄｕＬａｂ",
+      "furigana": "えでゅらぼ",
+      "decisionMonth": 10,
+      "registrationDate": ""
+    },
+    {
+      "code": "4429",
+      "name": "リックソフト株式会社",
+      "furigana": "りっくそふと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4434",
+      "name": "株式会社 サーバーワークス",
+      "furigana": "さーばーわーくす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4441",
+      "name": "トビラシステムズ株式会社",
+      "furigana": "とびらしすてむず",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4444",
+      "name": "株式会社 インフォネット",
+      "furigana": "いんふぉねっと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4471",
+      "name": "三洋化成工業株式会社",
+      "furigana": "さんようかせいこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4476",
+      "name": "ＡＩ　ＣＲＯＳＳ株式会社",
+      "furigana": "えいあい　くろす",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4486",
+      "name": "ユナイトアンドグロウ株式会社",
+      "furigana": "ゆないとあんどぐろう",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4488",
+      "name": "ＡＩ　ｉｎｓｉｄｅ株式会社",
+      "furigana": "えーあいいんさいど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4493",
+      "name": "株式会社 サイバーセキュリティクラウド",
+      "furigana": "さいばーせきゅりてぃくらうど",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4503",
+      "name": "アステラス製薬株式会社",
+      "furigana": "あすてらすせいやく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4506",
+      "name": "住友ファーマ株式会社",
+      "furigana": "すみともふぁーま",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4507",
+      "name": "塩野義製薬株式会社",
+      "furigana": "しおのぎせいやく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4521",
+      "name": "科研製薬株式会社",
+      "furigana": "かけんせいやく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4538",
+      "name": "扶桑薬品工業株式会社",
+      "furigana": "ふそうやくひんこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4552",
+      "name": "ＪＣＲファーマ株式会社",
+      "furigana": "じぇいしーあーる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4554",
+      "name": "富士製薬工業株式会社",
+      "furigana": "ふじせいやくこうぎょう",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "4559",
+      "name": "ゼリア新薬工業株式会社",
+      "furigana": "ぜりあしんやくこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4564",
+      "name": "オンコセラピー・サイエンス株式会社",
+      "furigana": "おんこせらぴーさいえんす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4571",
+      "name": "ＮＡＮＯ　ＭＲＮＡ株式会社",
+      "furigana": "なのえむあーるえぬえい",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4572",
+      "name": "カルナバイオサイエンス株式会社",
+      "furigana": "かるなばいおさいえんす",
+      "decisionMonth": 12,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "4579",
+      "name": "ラクオリア創薬株式会社",
+      "furigana": "らくおりあそうやく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4591",
+      "name": "株式会社 リボミック",
+      "furigana": "りぼみっく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4615",
+      "name": "神東塗料株式会社",
+      "furigana": "しんとうとりょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4620",
+      "name": "藤倉化成株式会社",
+      "furigana": "ふじくらかせい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4629",
+      "name": "大伸化学株式会社",
+      "furigana": "だいしんかがく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4635",
+      "name": "東京インキ株式会社",
+      "furigana": "とうきょういんき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4665",
+      "name": "株式会社 ダスキン",
+      "furigana": "だすきん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4668",
+      "name": "株式会社 明光ネットワークジャパン",
+      "furigana": "めいこうねっとわーくじゃぱん",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "4671",
+      "name": "株式会社 ファルコホールディングス",
+      "furigana": "ふぁるこほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4680",
+      "name": "株式会社 ラウンドワン",
+      "furigana": "らうんどわん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4690",
+      "name": "日本パレットプール株式会社",
+      "furigana": "にっぽんぱれっとぷーる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4691",
+      "name": "ワシントンホテル株式会社",
+      "furigana": "わしんとんほてる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4732",
+      "name": "株式会社 ユー・エス・エス",
+      "furigana": "ゆーえすえす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4733",
+      "name": "株式会社 オービックビジネスコンサルタント",
+      "furigana": "おーびっくびじねすこんさるたんと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4750",
+      "name": "株式会社 ダイサン",
+      "furigana": "だいさん",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "4755",
+      "name": "楽天グループ株式会社",
+      "furigana": "らくてんぐるーぷ",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4763",
+      "name": "株式会社 クリーク・アンド・リバー社",
+      "furigana": "くりーくあんどりばーしゃ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "4768",
+      "name": "株式会社 大塚商会",
+      "furigana": "おおつかしょうかい",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4800",
+      "name": "オリコン株式会社",
+      "furigana": "おりこん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4809",
+      "name": "パラカ株式会社",
+      "furigana": "ぱらか",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "4828",
+      "name": "ビジネスエンジニアリング株式会社",
+      "furigana": "びじねすえんじにありんぐ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4832",
+      "name": "ＪＦＥシステムズ株式会社",
+      "furigana": "じぇいえふいーしすてむず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4849",
+      "name": "エン・ジャパン株式会社",
+      "furigana": "えん・じゃぱん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4887",
+      "name": "サワイグループホールディングス株式会社",
+      "furigana": "さわいぐるーぷほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4901",
+      "name": "富士フイルムホールディングス株式会社",
+      "furigana": "ふじふいるむほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4917",
+      "name": "株式会社 マンダム",
+      "furigana": "まんだむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4919",
+      "name": "株式会社 ミルボン",
+      "furigana": "みるぼん",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "4929",
+      "name": "株式会社 アジュバンホールディングス",
+      "furigana": "あじゅばんほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4934",
+      "name": "プレミアアンチエイジング株式会社",
+      "furigana": "ぷれみああんちえいじんぐ",
+      "decisionMonth": 7,
+      "registrationDate": ""
+    },
+    {
+      "code": "4958",
+      "name": "長谷川香料株式会社",
+      "furigana": "はせがわこうりょう",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "4972",
+      "name": "綜研化学株式会社",
+      "furigana": "そうけんかがく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4977",
+      "name": "新田ゼラチン株式会社",
+      "furigana": "にったぜらちん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4990",
+      "name": "昭和化学工業株式会社",
+      "furigana": "しょうわかがくこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "4997",
+      "name": "日本農薬株式会社",
+      "furigana": "にほんのうやく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5011",
+      "name": "ニチレキグループ株式会社",
+      "furigana": "にちれきぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5019",
+      "name": "出光興産株式会社",
+      "furigana": "いでみつこうさん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5021",
+      "name": "コスモエネルギーホールディングス株式会社",
+      "furigana": "こすもえねるぎーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5032",
+      "name": "ＡＮＹＣＯＬＯＲ株式会社",
+      "furigana": "えにーからー",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "5033",
+      "name": "株式会社 ヌーラボ",
+      "furigana": "ぬーらぼ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5110",
+      "name": "住友ゴム工業株式会社",
+      "furigana": "すみともごむこうぎょう",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "5121",
+      "name": "藤倉コンポジット株式会社",
+      "furigana": "ふじくらこんぽじっと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5161",
+      "name": "西川ゴム工業株式会社",
+      "furigana": "にしかわごむこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5184",
+      "name": "株式会社 ニチリン",
+      "furigana": "にちりん",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "5186",
+      "name": "ニッタ株式会社",
+      "furigana": "にった",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5187",
+      "name": "クリエートメディック株式会社",
+      "furigana": "くりえーとめでぃっく",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "5191",
+      "name": "住友理工株式会社",
+      "furigana": "すみともりこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5202",
+      "name": "日本板硝子株式会社",
+      "furigana": "にほんいたがらす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5208",
+      "name": "株式会社 有沢製作所",
+      "furigana": "ありさわせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5232",
+      "name": "住友大阪セメント株式会社",
+      "furigana": "すみともおおさかせめんと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5233",
+      "name": "太平洋セメント株式会社",
+      "furigana": "たいへいようせめんと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5247",
+      "name": "株式会社 ＢＴＭ",
+      "furigana": "びーてぃーえむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5257",
+      "name": "ノバシステム株式会社",
+      "furigana": "のばしすてむ",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "5269",
+      "name": "日本コンクリート工業株式会社",
+      "furigana": "にほんこんくりーとこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5342",
+      "name": "ジャニス工業株式会社",
+      "furigana": "じゃにすこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5343",
+      "name": "ニッコー株式会社",
+      "furigana": "にっこー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5356",
+      "name": "美濃窯業株式会社",
+      "furigana": "みのようぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5401",
+      "name": "日本製鉄株式会社",
+      "furigana": "にっぽんせいてつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5410",
+      "name": "合同製鐵株式会社",
+      "furigana": "ごうどうせいてつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5444",
+      "name": "大和工業株式会社",
+      "furigana": "やまとこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5445",
+      "name": "東京鐵鋼株式会社",
+      "furigana": "とうきょうてっこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5446",
+      "name": "北越メタル株式会社",
+      "furigana": "ほくえつめたる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5449",
+      "name": "大阪製鐵株式会社",
+      "furigana": "おおさかせいてつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5484",
+      "name": "東北特殊鋼株式会社",
+      "furigana": "とうほくとくしゅこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5577",
+      "name": "株式会社 アイデミー",
+      "furigana": "あいでみー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5579",
+      "name": "株式会社 ＧＳＩ",
+      "furigana": "じーえすあい",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "5582",
+      "name": "株式会社 グリッド",
+      "furigana": "ぐりっど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5587",
+      "name": "株式会社 インバウンドプラットフォーム",
+      "furigana": "いんばうんどぷらっとふぉーむ",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "5603",
+      "name": "虹技株式会社",
+      "furigana": "こうぎ",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "5618",
+      "name": "ナイル株式会社",
+      "furigana": "ないる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5621",
+      "name": "株式会社 ヒューマンテクノロジーズ",
+      "furigana": "ひゅーまんてくのろじーず",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "5631",
+      "name": "株式会社 日本製鋼所",
+      "furigana": "にほんせいこうしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5715",
+      "name": "古河機械金属株式会社",
+      "furigana": "ふるかわきかいきんぞく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5726",
+      "name": "株式会社 大阪チタニウムテクノロジーズ",
+      "furigana": "おおさかちたにうむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5802",
+      "name": "住友電気工業株式会社",
+      "furigana": "すみともでんきこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5803",
+      "name": "株式会社 フジクラ",
+      "furigana": "ふじくら",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5834",
+      "name": "ＳＢＩリーシングサービス株式会社",
+      "furigana": "えすびーあいりーしんぐさーびす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5838",
+      "name": "楽天銀行株式会社",
+      "furigana": "らくてんぎんこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5885",
+      "name": "株式会社 ジーデップ・アドバンス",
+      "furigana": "じーでっぷ・あどばんす",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "5902",
+      "name": "ホッカンホールディングス株式会社",
+      "furigana": "ほっかんほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5911",
+      "name": "株式会社 横河ブリッジホールディングス",
+      "furigana": "よこがわぶりっじほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5918",
+      "name": "瀧上工業株式会社",
+      "furigana": "たきがみこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5923",
+      "name": "高田機工株式会社",
+      "furigana": "たかだきこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5932",
+      "name": "三協立山株式会社",
+      "furigana": "さんきょうたてやま",
+      "decisionMonth": 5,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "5933",
+      "name": "アルインコ株式会社",
+      "furigana": "あるいんこ",
+      "decisionMonth": 3,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "5941",
+      "name": "株式会社 中西製作所",
+      "furigana": "なかにしせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "5947",
+      "name": "リンナイ株式会社",
+      "furigana": "りんない",
+      "decisionMonth": 3,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "5952",
+      "name": "アマテイ株式会社",
+      "furigana": "あまてい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5955",
+      "name": "株式会社 ワイズホールディングス",
+      "furigana": "わいずほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5957",
+      "name": "日東精工株式会社",
+      "furigana": "にっとうせいこう",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "5976",
+      "name": "高周波熱錬株式会社",
+      "furigana": "こうしゅうはねつれん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5981",
+      "name": "東京製綱株式会社",
+      "furigana": "とうきょうせいこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5985",
+      "name": "サンコール株式会社",
+      "furigana": "さんこーる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "5987",
+      "name": "株式会社 オーネックス",
+      "furigana": "おーねっくす",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "5994",
+      "name": "株式会社 ファインシンター",
+      "furigana": "ふぁいんしんたー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6016",
+      "name": "株式会社 ジャパンエンジンコーポレーション",
+      "furigana": "じゃぱんえんじんこーぽれーしょん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6022",
+      "name": "株式会社 赤阪鐵工所",
+      "furigana": "あかさかてっこうしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6028",
+      "name": "テクノプロ・ホールディングス株式会社",
+      "furigana": "てくのぷろほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6045",
+      "name": "株式会社 レントラックス",
+      "furigana": "れんとらっくす",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "6063",
+      "name": "日本エマージェンシーアシスタンス株式会社",
+      "furigana": "にほんえまーじぇんしーあしすたんす",
+      "decisionMonth": 12,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "6069",
+      "name": "トレンダーズ株式会社",
+      "furigana": "とれんだーず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6083",
+      "name": "ＥＲＩホールディングス株式会社",
+      "furigana": "いーあーるあいほーるでぃんぐす",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "6090",
+      "name": "ヒューマン・メタボローム・テクノロジーズ株式会社",
+      "furigana": "ひゅーまんめたぼろーむてくのろじーず",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "6091",
+      "name": "株式会社 ウエスコホールディングス",
+      "furigana": "うえすこほーるでぃんぐす",
+      "decisionMonth": 7,
+      "registrationDate": ""
+    },
+    {
+      "code": "6093",
+      "name": "株式会社 エスクロー・エージェント・ジャパン",
+      "furigana": "えすくろーえーじぇんとじゃぱん",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "6103",
+      "name": "オークマ株式会社",
+      "furigana": "おーくま",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6104",
+      "name": "芝浦機械株式会社",
+      "furigana": "しばうらきかい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6137",
+      "name": "小池酸素工業株式会社",
+      "furigana": "こいけさんそこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6140",
+      "name": "旭ダイヤモンド工業株式会社",
+      "furigana": "あさひだいやもんどこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6142",
+      "name": "富士精工株式会社",
+      "furigana": "ふじせいこう",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "6158",
+      "name": "株式会社 和井田製作所",
+      "furigana": "わいだせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6165",
+      "name": "パンチ工業株式会社",
+      "furigana": "ぱんちこうぎょう",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "6182",
+      "name": "株式会社 メタリアル",
+      "furigana": "めたりある",
+      "decisionMonth": 1,
+      "registrationDate": ""
+    },
+    {
+      "code": "6184",
+      "name": "株式会社 鎌倉新書",
+      "furigana": "かまくらしんしょ",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "6189",
+      "name": "株式会社 グローバルキッズＣＯＭＰＡＮＹ",
+      "furigana": "ぐろーばるきっずかんぱにー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6197",
+      "name": "株式会社 ソラスト",
+      "furigana": "そらすと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6203",
+      "name": "豊和工業株式会社",
+      "furigana": "ほうわこうぎょう",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "6233",
+      "name": "ＫＬＡＳＳ株式会社",
+      "furigana": "くらす",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "6239",
+      "name": "株式会社 ナガオカ",
+      "furigana": "ながおか",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6248",
+      "name": "株式会社 横田製作所",
+      "furigana": "よこたせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6249",
+      "name": "株式会社 ゲームカード・ジョイコホールディングス",
+      "furigana": "げーむかーどじょいこほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6257",
+      "name": "株式会社 藤商事",
+      "furigana": "ふじしょうじ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6258",
+      "name": "平田機工株式会社",
+      "furigana": "ひらたきこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6262",
+      "name": "株式会社 ＰＥＧＡＳＵＳ",
+      "furigana": "ぺがさす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6294",
+      "name": "オカダアイヨン株式会社",
+      "furigana": "おかだあいよん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6302",
+      "name": "住友重機械工業株式会社",
+      "furigana": "すみともじゅうきかいこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6322",
+      "name": "株式会社 タクミナ",
+      "furigana": "たくみな",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6325",
+      "name": "株式会社 タカキタ",
+      "furigana": "たかきた",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6330",
+      "name": "東洋エンジニアリング株式会社",
+      "furigana": "とうようえんじにありんぐ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6333",
+      "name": "株式会社 帝国電機製作所",
+      "furigana": "ていこくでんきせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6342",
+      "name": "株式会社 太平製作所",
+      "furigana": "たいへいせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6351",
+      "name": "株式会社 鶴見製作所",
+      "furigana": "つるみせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6370",
+      "name": "栗田工業株式会社",
+      "furigana": "くりたこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6373",
+      "name": "大同工業株式会社",
+      "furigana": "だいどうこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6380",
+      "name": "オリエンタルチエン工業株式会社",
+      "furigana": "おりえんたるちえんこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6402",
+      "name": "兼松エンジニアリング株式会社",
+      "furigana": "かねまつえんじにありんぐ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6406",
+      "name": "フジテック株式会社",
+      "furigana": "ふじてっく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6407",
+      "name": "ＣＫＤ株式会社",
+      "furigana": "しーけーでぃー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6413",
+      "name": "理想科学工業株式会社",
+      "furigana": "りそうかがくこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6417",
+      "name": "株式会社 ＳＡＮＫＹＯ",
+      "furigana": "さんきょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6418",
+      "name": "日本金銭機械株式会社",
+      "furigana": "にほんきんせんきかい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6419",
+      "name": "株式会社 マースグループホールディングス",
+      "furigana": "まーすぐるーぷほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6420",
+      "name": "ガリレイ株式会社",
+      "furigana": "がりれい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6430",
+      "name": "ダイコク電機株式会社",
+      "furigana": "だいこくでんき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6439",
+      "name": "中日本鋳工株式会社",
+      "furigana": "なかにっぽんちゅうこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6445",
+      "name": "株式会社 ジャノメ",
+      "furigana": "じゃのめ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6454",
+      "name": "マックス株式会社",
+      "furigana": "まっくす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6455",
+      "name": "株式会社 モリタホールディングス",
+      "furigana": "もりたほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6479",
+      "name": "ミネベアミツミ株式会社",
+      "furigana": "みねべあみつみ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6480",
+      "name": "日本トムソン株式会社",
+      "furigana": "にっぽんとむそん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6484",
+      "name": "株式会社 ＫＶＫ",
+      "furigana": "けーぶいけー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6507",
+      "name": "シンフォニアテクノロジー株式会社",
+      "furigana": "しんふぉにあてくのろじー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6508",
+      "name": "株式会社 明電舎",
+      "furigana": "めいでんしゃ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6518",
+      "name": "三相電機株式会社",
+      "furigana": "さんそうでんき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6523",
+      "name": "ＰＨＣホールディングス株式会社",
+      "furigana": "ぴーえいちしーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6526",
+      "name": "株式会社 ソシオネクスト",
+      "furigana": "そしおねくすと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6538",
+      "name": "株式会社 ディスラプターズ",
+      "furigana": "でぃすらぷたーず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6562",
+      "name": "株式会社 ジーニー",
+      "furigana": "じーにー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6568",
+      "name": "神戸天然物化学株式会社",
+      "furigana": "こうべてんねんぶつかがく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6573",
+      "name": "アジャイルメディア・ネットワーク株式会社",
+      "furigana": "あじゃいるめでぃあ・ねっとわーく",
+      "decisionMonth": 12,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "6586",
+      "name": "株式会社 マキタ",
+      "furigana": "まきた",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6588",
+      "name": "東芝テック株式会社",
+      "furigana": "とうしばてっく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6590",
+      "name": "芝浦メカトロニクス株式会社",
+      "furigana": "しばうらめかとろにくす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6616",
+      "name": "トレックス・セミコンダクター株式会社",
+      "furigana": "とれっくすせみこんだくたー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6620",
+      "name": "宮越ホールディングス株式会社",
+      "furigana": "みやこしほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6622",
+      "name": "株式会社 ダイヘン",
+      "furigana": "だいへん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6625",
+      "name": "ＪＡＬＣＯホールディングス株式会社",
+      "furigana": "じゃるこほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6627",
+      "name": "株式会社 テラプローブ",
+      "furigana": "てらぷろーぶ",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "6632",
+      "name": "株式会社 ＪＶＣケンウッド",
+      "furigana": "じぇいぶいしーけんうっど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6654",
+      "name": "不二電機工業株式会社",
+      "furigana": "ふじでんきこうぎょう",
+      "decisionMonth": 1,
+      "registrationDate": ""
+    },
+    {
+      "code": "6668",
+      "name": "株式会社 アドテックプラズマテクノロジー",
+      "furigana": "あどてっくぷらずまてくのろじー",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "6674",
+      "name": "株式会社 ジーエス・ユアサ　コーポレーション",
+      "furigana": "じーえすゆあさこーぽれーしょん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6677",
+      "name": "株式会社 エスケーエレクトロニクス",
+      "furigana": "えすけーえれくとろにくす",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "6706",
+      "name": "電気興業株式会社",
+      "furigana": "でんきこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6728",
+      "name": "株式会社 アルバック",
+      "furigana": "あるばっく",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "6744",
+      "name": "能美防災株式会社",
+      "furigana": "のうみぼうさい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6752",
+      "name": "パナソニック　ホールディングス株式会社",
+      "furigana": "ぱなそにっく　ほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6754",
+      "name": "アンリツ株式会社",
+      "furigana": "あんりつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6762",
+      "name": "ＴＤＫ株式会社",
+      "furigana": "てぃーでぃーけー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6768",
+      "name": "株式会社 タムラ製作所",
+      "furigana": "たむらせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6769",
+      "name": "ザインエレクトロニクス株式会社",
+      "furigana": "ざいんえれくとろにくす",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "6775",
+      "name": "株式会社 ＴＢグループ",
+      "furigana": "てぃーびーぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6777",
+      "name": "ｓａｎｔｅｃ　Ｈｏｌｄｉｎｇｓ株式会社",
+      "furigana": "さんてっく　ほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6779",
+      "name": "日本電波工業株式会社",
+      "furigana": "にほんでんぱこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6797",
+      "name": "名古屋電機工業株式会社",
+      "furigana": "なごやでんきこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6806",
+      "name": "ヒロセ電機株式会社",
+      "furigana": "ひろせでんき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6834",
+      "name": "株式会社 精工技研",
+      "furigana": "せいこうぎけん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6838",
+      "name": "株式会社 多摩川ホールディングス",
+      "furigana": "たまがわほーるでぃんぐす",
+      "decisionMonth": 10,
+      "registrationDate": ""
+    },
+    {
+      "code": "6846",
+      "name": "株式会社 中央製作所",
+      "furigana": "ちゅうおうせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6849",
+      "name": "日本光電工業株式会社",
+      "furigana": "にほんこうでんこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6882",
+      "name": "株式会社 三社電機製作所",
+      "furigana": "さんしゃでんきせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6890",
+      "name": "株式会社 フェローテックホールディングス",
+      "furigana": "ふぇろーてっくほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6897",
+      "name": "株式会社 ツインバード",
+      "furigana": "ついんばーど",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "6899",
+      "name": "ＡＳＴＩ株式会社",
+      "furigana": "あすてぃ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6912",
+      "name": "菊水ホールディングス株式会社",
+      "furigana": "きくすいほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6920",
+      "name": "レーザーテック株式会社",
+      "furigana": "れーざーてっく",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "6925",
+      "name": "ウシオ電機株式会社",
+      "furigana": "うしおでんき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6928",
+      "name": "株式会社 エノモト",
+      "furigana": "えのもと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6942",
+      "name": "株式会社 ソフィアホールディングス",
+      "furigana": "そふぃあほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6946",
+      "name": "日本アビオニクス株式会社",
+      "furigana": "にっぽんあびおにくす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6952",
+      "name": "カシオ計算機株式会社",
+      "furigana": "かしおけいさんき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6962",
+      "name": "株式会社 大真空",
+      "furigana": "だいしんくう",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "6965",
+      "name": "浜松ホトニクス株式会社",
+      "furigana": "はままつほとにくす",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "6982",
+      "name": "株式会社 リード",
+      "furigana": "りーど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "6995",
+      "name": "株式会社 東海理化電機製作所",
+      "furigana": "とうかいりかでんきせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7003",
+      "name": "株式会社 三井Ｅ＆Ｓ",
+      "furigana": "みついいーあんどえす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7013",
+      "name": "株式会社 ＩＨＩ",
+      "furigana": "あいえいちあい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7022",
+      "name": "サノヤスホールディングス株式会社",
+      "furigana": "さのやすほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7033",
+      "name": "株式会社 マネジメントソリューションズ",
+      "furigana": "まねじめんとそりゅーしょんず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7050",
+      "name": "株式会社 フロンティアインターナショナル",
+      "furigana": "ふろんてぃあいんたーなしょなる",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "7062",
+      "name": "株式会社 フレアス",
+      "furigana": "ふれあす",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "7074",
+      "name": "株式会社 トゥエンティーフォーセブン",
+      "furigana": "とぅえんてぃーふぉーせぶん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7075",
+      "name": "株式会社 ＱＬＳホールディングス",
+      "furigana": "きゅーえるえすほーるでぃんぐす",
+      "decisionMonth": 11,
+      "registrationDate": ""
+    },
+    {
+      "code": "7078",
+      "name": "ＩＮＣＬＵＳＩＶＥ株式会社",
+      "furigana": "いんくるーしぶ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7081",
+      "name": "コーユーレンティア株式会社",
+      "furigana": "こーゆーれんてぃあ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7084",
+      "name": "株式会社 Ｓｍｉｌｅ　Ｈｏｌｄｉｎｇｓ",
+      "furigana": "すまいるほーるでぃんぐす",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "7093",
+      "name": "アディッシュ株式会社",
+      "furigana": "あでぃっしゅ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7110",
+      "name": "株式会社 クラシコム",
+      "furigana": "くらしこむ",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "7120",
+      "name": "株式会社 ＳＨＩＮＫＯ",
+      "furigana": "しんこー",
+      "decisionMonth": 7,
+      "registrationDate": ""
+    },
+    {
+      "code": "7127",
+      "name": "株式会社 一家ホールディングス",
+      "furigana": "いっかほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7133",
+      "name": "ＨＹＵＧＡ　ＰＲＩＭＡＲＹ　ＣＡＲＥ株式会社",
+      "furigana": "ひゅうがぷらいまりけあ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7134",
+      "name": "株式会社 アップガレージグループ",
+      "furigana": "あっぷがれーじぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7163",
+      "name": "住信ＳＢＩネット銀行株式会社",
+      "furigana": "すみしんえすびーあいねっとぎんこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7199",
+      "name": "プレミアグループ株式会社",
+      "furigana": "ぷれみあぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7201",
+      "name": "日産自動車株式会社",
+      "furigana": "にっさんじどうしゃ",
+      "decisionMonth": 3,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "7212",
+      "name": "株式会社 エフテック",
+      "furigana": "えふてっく",
+      "decisionMonth": 3,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "7222",
+      "name": "日産車体株式会社",
+      "furigana": "にっさんしゃたい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7231",
+      "name": "トピー工業株式会社",
+      "furigana": "とぴーこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "7236",
+      "name": "株式会社 ティラド",
+      "furigana": "てぃらど",
+      "decisionMonth": 3,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "7239",
+      "name": "株式会社 タチエス",
+      "furigana": "たちえす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7241",
+      "name": "フタバ産業株式会社",
+      "furigana": "ふたばさんぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7244",
+      "name": "市光工業株式会社",
+      "furigana": "いちこうこうぎょう",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "7245",
+      "name": "大同メタル工業株式会社",
+      "furigana": "だいどうめたるこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7261",
+      "name": "マツダ株式会社",
+      "furigana": "まつだ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7264",
+      "name": "株式会社 ムロコーポレーション",
+      "furigana": "むろこーぽれーしょん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7266",
+      "name": "株式会社 今仙電機製作所",
+      "furigana": "いませんでんきせいさくしょ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7269",
+      "name": "スズキ株式会社",
+      "furigana": "すずき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7284",
+      "name": "盟和産業株式会社",
+      "furigana": "めいわさんぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7287",
+      "name": "日本精機株式会社",
+      "furigana": "にっぽんせいき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7292",
+      "name": "株式会社 村上開明堂",
+      "furigana": "むらかみかいめいどう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7313",
+      "name": "テイ・エス　テック株式会社",
+      "furigana": "ていえすてっく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7318",
+      "name": "セレンディップ・ホールディングス株式会社",
+      "furigana": "せれんでぃっぷほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7354",
+      "name": "株式会社 ダイレクトマーケティングミックス",
+      "furigana": "だいれくとまーけてぃんぐみっくす",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "7357",
+      "name": "株式会社 ジオコード",
+      "furigana": "じおこーど",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "7368",
+      "name": "表示灯株式会社",
+      "furigana": "ひょうじとう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7375",
+      "name": "株式会社 リファインバースグループ",
+      "furigana": "りふぁいんばーすぐるーぷ",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "7383",
+      "name": "株式会社 ネットプロテクションズホールディングス",
+      "furigana": "ねっとぷろてくしょんずほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7388",
+      "name": "株式会社 ＦＰパートナー",
+      "furigana": "えふぴーぱーとなー",
+      "decisionMonth": 11,
+      "registrationDate": ""
+    },
+    {
+      "code": "7412",
+      "name": "株式会社 アトム",
+      "furigana": "あとむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7420",
+      "name": "佐鳥電機株式会社",
+      "furigana": "さとりでんき",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "7421",
+      "name": "カッパ・クリエイト株式会社",
+      "furigana": "かっぱ・くりえいと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7427",
+      "name": "エコートレーディング株式会社",
+      "furigana": "えこーとれーでぃんぐ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "7434",
+      "name": "株式会社 オータケ",
+      "furigana": "おーたけ",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "7460",
+      "name": "株式会社 ヤギ",
+      "furigana": "やぎ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7467",
+      "name": "萩原電気ホールディングス株式会社",
+      "furigana": "はぎわらでんきほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7483",
+      "name": "株式会社 ドウシシャ",
+      "furigana": "どうししゃ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7490",
+      "name": "日新商事株式会社",
+      "furigana": "にっしんしょうじ",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "7500",
+      "name": "西川計測株式会社",
+      "furigana": "にしかわけいそく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7502",
+      "name": "株式会社 プラザホールディングス",
+      "furigana": "ぷらざほーるでぃんぐす",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "7516",
+      "name": "コーナン商事株式会社",
+      "furigana": "こーなんしょうじ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7522",
+      "name": "ワタミ株式会社",
+      "furigana": "わたみ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7538",
+      "name": "株式会社 大水",
+      "furigana": "だいすい",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "7544",
+      "name": "株式会社 スリーエフ",
+      "furigana": "すりーえふ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7551",
+      "name": "株式会社 ウェッズ",
+      "furigana": "うぇっず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7570",
+      "name": "橋本総業ホールディングス株式会社",
+      "furigana": "はしもとそうぎょうほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7571",
+      "name": "株式会社 ヤマノホールディングス",
+      "furigana": "やまのほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7593",
+      "name": "ＶＴホールディングス株式会社",
+      "furigana": "ぶいてぃーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7600",
+      "name": "株式会社 日本エム・ディ・エム",
+      "furigana": "にほんえむでぃえむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7602",
+      "name": "株式会社 レダックス",
+      "furigana": "れだっくす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7615",
+      "name": "株式会社 京都きもの友禅ホールディングス",
+      "furigana": "きょうときものゆうぜんほーるでぃんぐす",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "7616",
+      "name": "株式会社 コロワイド",
+      "furigana": "ころわいど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7624",
+      "name": "株式会社 ＮａＩＴＯ",
+      "furigana": "ないとう",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "7628",
+      "name": "株式会社 オーハシテクニカ",
+      "furigana": "おーはしてくにか",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7646",
+      "name": "株式会社 ＰＬＡＮＴ",
+      "furigana": "ぷらんと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7677",
+      "name": "株式会社 ヤシマキザイ",
+      "furigana": "やしまきざい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7681",
+      "name": "株式会社 レオクラン",
+      "furigana": "れおくらん",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "7694",
+      "name": "株式会社 いつも",
+      "furigana": "いつも",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7713",
+      "name": "シグマ光機株式会社",
+      "furigana": "しぐまこうき",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "7723",
+      "name": "愛知時計電機株式会社",
+      "furigana": "あいちとけいでんき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7730",
+      "name": "マニー株式会社",
+      "furigana": "まにー",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "7733",
+      "name": "オリンパス株式会社",
+      "furigana": "おりんぱす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7735",
+      "name": "株式会社 ＳＣＲＥＥＮホールディングス",
+      "furigana": "すくりーんほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7752",
+      "name": "株式会社 リコー",
+      "furigana": "りこー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7769",
+      "name": "リズム株式会社",
+      "furigana": "りずむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7774",
+      "name": "株式会社 ジャパン・ティッシュエンジニアリング",
+      "furigana": "じゃぱん・てぃっしゅえんじにありんぐ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7791",
+      "name": "ドリームベッド株式会社",
+      "furigana": "どりーむべっど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7812",
+      "name": "株式会社 クレステック",
+      "furigana": "くれすてっく",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "7857",
+      "name": "セキ株式会社",
+      "furigana": "せき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7859",
+      "name": "株式会社 アルメディオ",
+      "furigana": "あるめでぃお",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7860",
+      "name": "エイベックス株式会社",
+      "furigana": "えいべっくす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7863",
+      "name": "株式会社 平賀",
+      "furigana": "ひらが",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7867",
+      "name": "株式会社 タカラトミー",
+      "furigana": "たからとみー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7875",
+      "name": "竹田ｉＰホールディングス株式会社",
+      "furigana": "たけだあいぴーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7896",
+      "name": "セブン工業株式会社",
+      "furigana": "せぶんこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7897",
+      "name": "ホクシン株式会社",
+      "furigana": "ほくしん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7914",
+      "name": "共同印刷株式会社",
+      "furigana": "きょうどういんさつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7917",
+      "name": "ＺＡＣＲＯＳ株式会社",
+      "furigana": "ざくろす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7925",
+      "name": "前澤化成工業株式会社",
+      "furigana": "まえざわかせいこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7927",
+      "name": "ムトー精工株式会社",
+      "furigana": "むとーせいこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7939",
+      "name": "株式会社 研創",
+      "furigana": "けんそう",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "7962",
+      "name": "株式会社 キングジム",
+      "furigana": "きんぐじむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7979",
+      "name": "株式会社 松風",
+      "furigana": "しょうふう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7987",
+      "name": "ナカバヤシ株式会社",
+      "furigana": "なかばやし",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7991",
+      "name": "マミヤ・オーピー株式会社",
+      "furigana": "まみや・おーぴー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "7999",
+      "name": "ＭＵＴＯＨホールディングス株式会社",
+      "furigana": "むとうほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8001",
+      "name": "伊藤忠商事株式会社",
+      "furigana": "いとうちゅうしょうじ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8006",
+      "name": "ユアサ・フナショク株式会社",
+      "furigana": "ゆあさふなしょく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8012",
+      "name": "長瀬産業株式会社",
+      "furigana": "ながせさんぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8013",
+      "name": "株式会社 ナイガイ",
+      "furigana": "ないがい",
+      "decisionMonth": 1,
+      "registrationDate": ""
+    },
+    {
+      "code": "8022",
+      "name": "美津濃株式会社",
+      "furigana": "みずの",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8031",
+      "name": "三井物産株式会社",
+      "furigana": "みついぶっさん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8032",
+      "name": "日本紙パルプ商事株式会社",
+      "furigana": "にほんかみぱるぷしょうじ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8035",
+      "name": "東京エレクトロン株式会社",
+      "furigana": "とうきょうえれくとろん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8052",
+      "name": "椿本興業株式会社",
+      "furigana": "つばきもとこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8053",
+      "name": "住友商事株式会社",
+      "furigana": "すみともしょうじ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8056",
+      "name": "ＢＩＰＲＯＧＹ株式会社",
+      "furigana": "びぷろじー",
+      "decisionMonth": 7,
+      "registrationDate": ""
+    },
+    {
+      "code": "8057",
+      "name": "株式会社 内田洋行",
+      "furigana": "うちだようこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8066",
+      "name": "三谷商事株式会社",
+      "furigana": "みたにしょうじ",
+      "decisionMonth": 10,
+      "registrationDate": ""
+    },
+    {
+      "code": "8077",
+      "name": "トルク株式会社",
+      "furigana": "とるく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8078",
+      "name": "阪和興業株式会社",
+      "furigana": "はんわこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8089",
+      "name": "ナイス株式会社",
+      "furigana": "ないす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8091",
+      "name": "ニチモウ株式会社",
+      "furigana": "にちもう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8093",
+      "name": "極東貿易株式会社",
+      "furigana": "きょくとうぼうえき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8098",
+      "name": "稲畑産業株式会社",
+      "furigana": "いなばたさんぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8105",
+      "name": "堀田丸正株式会社",
+      "furigana": "ほったまるしょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8115",
+      "name": "ムーンバット株式会社",
+      "furigana": "むーんばっと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8125",
+      "name": "株式会社 ワキタ",
+      "furigana": "わきた",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "8133",
+      "name": "伊藤忠エネクス株式会社",
+      "furigana": "いとうちゅうえねくす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8137",
+      "name": "サンワテクノス株式会社",
+      "furigana": "さんわてくのす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8142",
+      "name": "株式会社 トーホー",
+      "furigana": "とーほー",
+      "decisionMonth": 1,
+      "registrationDate": ""
+    },
+    {
+      "code": "8150",
+      "name": "三信電気株式会社",
+      "furigana": "さんしんでんき",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8165",
+      "name": "株式会社 千趣会",
+      "furigana": "せんしゅかい",
+      "decisionMonth": 12,
+      "registrationDate": "7/1"
+    },
+    {
+      "code": "8167",
+      "name": "株式会社 リテールパートナーズ",
+      "furigana": "りてーるぱーとなーず",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "8190",
+      "name": "株式会社 ヤマナカ",
+      "furigana": "やまなか",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8194",
+      "name": "株式会社 ライフコーポレーション",
+      "furigana": "らいふこーぽれーしょん",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "8217",
+      "name": "株式会社 オークワ",
+      "furigana": "おーくわ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "8219",
+      "name": "青山商事株式会社",
+      "furigana": "あおやましょうじ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8247",
+      "name": "株式会社 大和",
+      "furigana": "だいわ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "8253",
+      "name": "株式会社 クレディセゾン",
+      "furigana": "くれでぃせぞん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8273",
+      "name": "株式会社 イズミ",
+      "furigana": "いずみ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "8275",
+      "name": "株式会社 フォーバル",
+      "furigana": "ふぉーばる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8276",
+      "name": "株式会社 平和堂",
+      "furigana": "へいわどう",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "8278",
+      "name": "株式会社 フジ",
+      "furigana": "ふじ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "8291",
+      "name": "日産東京販売ホールディングス株式会社",
+      "furigana": "にっさんとうきょうはんばいほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8304",
+      "name": "株式会社 あおぞら銀行",
+      "furigana": "あおぞらぎんこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8308",
+      "name": "株式会社 りそなホールディングス",
+      "furigana": "りそなほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8309",
+      "name": "三井住友トラストグループ株式会社",
+      "furigana": "みついすみともとらすとぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8316",
+      "name": "株式会社 三井住友フィナンシャルグループ",
+      "furigana": "みついすみともふぃなんしゃるぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8515",
+      "name": "アイフル株式会社",
+      "furigana": "あいふる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8541",
+      "name": "株式会社 愛媛銀行",
+      "furigana": "えひめぎんこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8542",
+      "name": "株式会社 トマト銀行",
+      "furigana": "とまとぎんこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8601",
+      "name": "株式会社 大和証券グループ本社",
+      "furigana": "だいわしょうけんぐるーぷほんしゃ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8609",
+      "name": "株式会社 岡三証券グループ",
+      "furigana": "おかさんしょうけんぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8616",
+      "name": "東海東京フィナンシャル・ホールディングス株式会社",
+      "furigana": "とうかいとうきょうふぃなんしゃるほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8617",
+      "name": "光世証券株式会社",
+      "furigana": "こうせいしょうけん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8628",
+      "name": "松井証券株式会社",
+      "furigana": "まついしょうけん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8705",
+      "name": "日産証券グループ株式会社",
+      "furigana": "にっさんしょうけんぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8706",
+      "name": "極東証券株式会社",
+      "furigana": "きょくとうしょうけん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8707",
+      "name": "岩井コスモホールディングス株式会社",
+      "furigana": "いわいこすもほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8725",
+      "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス株式会社",
+      "furigana": "えむえすあんどえーでーいんしゅあらんすぐるーぷほーるでぃんぐ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8739",
+      "name": "スパークス・グループ株式会社",
+      "furigana": "すぱーくすぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8742",
+      "name": "株式会社 小林洋行",
+      "furigana": "こばやしようこう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8746",
+      "name": "ＵＮＢＡＮＫＥＤ株式会社",
+      "furigana": "あんばんく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8793",
+      "name": "ＮＥＣキャピタルソリューション株式会社",
+      "furigana": "えぬいーしーきゃぴたるそりゅーしょん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8801",
+      "name": "三井不動産株式会社",
+      "furigana": "みついふどうさん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8818",
+      "name": "京阪神ビルディング株式会社",
+      "furigana": "けいはんしんびるでぃんぐ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8848",
+      "name": "株式会社 レオパレス２１",
+      "furigana": "れおぱれすにじゅういち",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8876",
+      "name": "株式会社 リログループ",
+      "furigana": "りろぐるーぷ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8877",
+      "name": "エスリード株式会社",
+      "furigana": "えすりーど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8891",
+      "name": "ＡＭＧホールディングス株式会社",
+      "furigana": "えーえむじーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8892",
+      "name": "株式会社 日本エスコン",
+      "furigana": "にほんえすこん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8897",
+      "name": "ＭＩＲＡＲＴＨホールディングス株式会社",
+      "furigana": "みらーすほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8904",
+      "name": "株式会社 ＡＶＡＮＴＩＡ",
+      "furigana": "あばんてぃあ",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "8912",
+      "name": "株式会社 エリアクエスト",
+      "furigana": "えりあくえすと",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "8919",
+      "name": "株式会社 カチタス",
+      "furigana": "かちたす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8920",
+      "name": "株式会社 東祥",
+      "furigana": "とうしょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8995",
+      "name": "株式会社 誠建設工業",
+      "furigana": "まことけんせつこうぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "8996",
+      "name": "株式会社 ハウスフリーダム",
+      "furigana": "はうすふりーだむ",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "9001",
+      "name": "東武鉄道株式会社",
+      "furigana": "とうぶてつどう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9003",
+      "name": "相鉄ホールディングス株式会社",
+      "furigana": "そうてつほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9005",
+      "name": "東急株式会社",
+      "furigana": "とうきゅう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9006",
+      "name": "京浜急行電鉄株式会社",
+      "furigana": "けいひんきゅうこうでんてつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9007",
+      "name": "小田急電鉄株式会社",
+      "furigana": "おだきゅうでんてつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9008",
+      "name": "京王電鉄株式会社",
+      "furigana": "けいおうでんてつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9021",
+      "name": "西日本旅客鉄道株式会社",
+      "furigana": "にしにほんりょかくてつどう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9022",
+      "name": "東海旅客鉄道株式会社",
+      "furigana": "とうかいりょかくてつどう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9025",
+      "name": "鴻池運輸株式会社",
+      "furigana": "こうのいけうんゆ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9027",
+      "name": "株式会社 ロジネットジャパン",
+      "furigana": "ろじねっとじゃぱん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9036",
+      "name": "東部ネットワーク株式会社",
+      "furigana": "とうぶねっとわーく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9044",
+      "name": "南海電気鉄道株式会社",
+      "furigana": "なんかいでんきてつどう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9045",
+      "name": "京阪ホールディングス株式会社",
+      "furigana": "けいはんほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9048",
+      "name": "名古屋鉄道株式会社",
+      "furigana": "なごやてつどう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9051",
+      "name": "センコン物流株式会社",
+      "furigana": "せんこんぶつりゅう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9052",
+      "name": "山陽電気鉄道株式会社",
+      "furigana": "さんようでんきてつどう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9063",
+      "name": "岡山県貨物運送株式会社",
+      "furigana": "おかやまけんかもつうんそう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9067",
+      "name": "株式会社 丸運",
+      "furigana": "まるうん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9074",
+      "name": "日本石油輸送株式会社",
+      "furigana": "にほんせきゆゆそう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9081",
+      "name": "神奈川中央交通株式会社",
+      "furigana": "かながわちゅうおうこうつう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9085",
+      "name": "北海道中央バス株式会社",
+      "furigana": "ほっかいどうちゅうおうばす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9087",
+      "name": "タカセ株式会社",
+      "furigana": "たかせ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9104",
+      "name": "株式会社 商船三井",
+      "furigana": "しょうせんみつい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9107",
+      "name": "川崎汽船株式会社",
+      "furigana": "かわさききせん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9119",
+      "name": "飯野海運株式会社",
+      "furigana": "いいのかいうん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9127",
+      "name": "玉井商船株式会社",
+      "furigana": "たまいしょうせん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9142",
+      "name": "九州旅客鉄道株式会社",
+      "furigana": "きゅうしゅうりょかくてつどう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9159",
+      "name": "株式会社 Ｗ　ＴＯＫＹＯ",
+      "furigana": "だぶる　とーきょー",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "9163",
+      "name": "株式会社 ナレルグループ",
+      "furigana": "なれるぐるーぷ",
+      "decisionMonth": 10,
+      "registrationDate": ""
+    },
+    {
+      "code": "9166",
+      "name": "株式会社 ＧＥＮＤＡ",
+      "furigana": "じぇんだ",
+      "decisionMonth": 1,
+      "registrationDate": ""
+    },
+    {
+      "code": "9168",
+      "name": "株式会社 ライズ・コンサルティング・グループ",
+      "furigana": "らいず・こんさるてぃんぐ・ぐるーぷ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "9171",
+      "name": "栗林商船株式会社",
+      "furigana": "くりばやししょうせん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9193",
+      "name": "東京汽船株式会社",
+      "furigana": "とうきょうきせん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9202",
+      "name": "ＡＮＡホールディングス株式会社",
+      "furigana": "えいえぬえいほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9215",
+      "name": "株式会社 ＣａＳｙ",
+      "furigana": "かじー",
+      "decisionMonth": 11,
+      "registrationDate": ""
+    },
+    {
+      "code": "9221",
+      "name": "フルハシＥＰＯ株式会社",
+      "furigana": "ふるはしいーぴーおー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9223",
+      "name": "株式会社 ＡＳＮＯＶＡ",
+      "furigana": "あすのば",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9227",
+      "name": "マイクロ波化学株式会社",
+      "furigana": "まいくろはかがく",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "9233",
+      "name": "アジア航測株式会社",
+      "furigana": "あじあこうそく",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "9244",
+      "name": "株式会社 デジタリフト",
+      "furigana": "でじたりふと",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "9249",
+      "name": "日本エコシステム株式会社",
+      "furigana": "にほんえこしすてむ",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "9252",
+      "name": "株式会社 ラストワンマイル",
+      "furigana": "らすとわんまいる",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "9264",
+      "name": "ポエック株式会社",
+      "furigana": "ぽえっく",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "9303",
+      "name": "株式会社 住友倉庫",
+      "furigana": "すみともそうこ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9305",
+      "name": "株式会社 ヤマタネ",
+      "furigana": "やまたね",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9325",
+      "name": "ファイズホールディングス株式会社",
+      "furigana": "ふぁいずほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9330",
+      "name": "株式会社 揚羽",
+      "furigana": "あげは",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "9331",
+      "name": "株式会社 キャスター",
+      "furigana": "きゃすたー",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "9336",
+      "name": "大栄環境株式会社",
+      "furigana": "だいえいかんきょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9346",
+      "name": "株式会社 ココルポート",
+      "furigana": "ここるぽーと",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "9360",
+      "name": "鈴与シンワート株式会社",
+      "furigana": "すずよしんわーと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9363",
+      "name": "株式会社 大運",
+      "furigana": "だいうん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9366",
+      "name": "株式会社 サンリツ",
+      "furigana": "さんりつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9368",
+      "name": "キムラユニティー株式会社",
+      "furigana": "きむらゆにてぃー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9405",
+      "name": "朝日放送グループホールディングス株式会社",
+      "furigana": "あさひほうそうぐりーぷほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9409",
+      "name": "株式会社 テレビ朝日ホールディングス",
+      "furigana": "てれびあさひほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9419",
+      "name": "株式会社 ワイヤレスゲート",
+      "furigana": "わいやれすげーと",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "9423",
+      "name": "株式会社 フォーバル・リアルストレート",
+      "furigana": "ふぉーばるりあるすとれーと",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9432",
+      "name": "日本電信電話株式会社",
+      "furigana": "にほんでんしんでんわ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9439",
+      "name": "株式会社 エム・エイチ・グループ",
+      "furigana": "えむ・えいち・ぐるーぷ",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "9444",
+      "name": "株式会社 トーシンホールディングス",
+      "furigana": "とーしんほーるでぃんぐす",
+      "decisionMonth": 4,
+      "registrationDate": ""
+    },
+    {
+      "code": "9445",
+      "name": "株式会社 フォーバルテレコム",
+      "furigana": "ふぉーばるてれこむ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9478",
+      "name": "ＳＥホールディングス・アンド・インキュベーションズ株式会社",
+      "furigana": "えすいーほーるでぃんぐすあんどいんきゅべーしょんず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9504",
+      "name": "中国電力株式会社",
+      "furigana": "ちゅうごくでんりょく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9507",
+      "name": "四国電力株式会社",
+      "furigana": "しこくでんりょく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9513",
+      "name": "電源開発株式会社",
+      "furigana": "でんげんかいはつ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9514",
+      "name": "株式会社 エフオン",
+      "furigana": "えふおん",
+      "decisionMonth": 6,
+      "registrationDate": ""
+    },
+    {
+      "code": "9531",
+      "name": "東京瓦斯株式会社",
+      "furigana": "とうきょうがす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9532",
+      "name": "大阪瓦斯株式会社",
+      "furigana": "おおさかがす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9534",
+      "name": "北海道瓦斯株式会社",
+      "furigana": "ほっかいどうがす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9610",
+      "name": "ウィルソン・ラーニング　ワールドワイド株式会社",
+      "furigana": "うぃるそん・らーにんぐわーるどわいど",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9619",
+      "name": "株式会社 イチネンホールディングス",
+      "furigana": "いちねんほーるでぃんぐす",
+      "decisionMonth": 12,
+      "registrationDate": ""
+    },
+    {
+      "code": "9622",
+      "name": "株式会社 スペース",
+      "furigana": "すぺーす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9625",
+      "name": "株式会社 セレスポ",
+      "furigana": "せれすぽ",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9628",
+      "name": "燦ホールディングス株式会社",
+      "furigana": "さんほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9633",
+      "name": "東京テアトル株式会社",
+      "furigana": "とうきょうてあとる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9682",
+      "name": "株式会社 ＤＴＳ",
+      "furigana": "でぃーてぃーえす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9685",
+      "name": "ＫＹＣＯＭホールディングス株式会社",
+      "furigana": "かいこむほーるでぃんぐす",
+      "decisionMonth": 1,
+      "registrationDate": ""
+    },
+    {
+      "code": "9692",
+      "name": "株式会社 シーイーシー",
+      "furigana": "しーいーしー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9713",
+      "name": "株式会社 ロイヤルホテル",
+      "furigana": "ろいやるほてる",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9715",
+      "name": "トランス・コスモス株式会社",
+      "furigana": "とらんすこすもす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9719",
+      "name": "ＳＣＳＫ株式会社",
+      "furigana": "えすしーえすけい",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9729",
+      "name": "株式会社 トーカイ",
+      "furigana": "とーかい",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "9739",
+      "name": "ＮＳＷ株式会社",
+      "furigana": "えぬえすだぶりゅー",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9740",
+      "name": "セントラル警備保障株式会社",
+      "furigana": "せんとらるけいびほしょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9761",
+      "name": "東海リース株式会社",
+      "furigana": "とうかいりーす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9765",
+      "name": "株式会社 オオバ",
+      "furigana": "おおば",
+      "decisionMonth": 5,
+      "registrationDate": ""
+    },
+    {
+      "code": "9767",
+      "name": "日建工学株式会社",
+      "furigana": "にっけんこうがく",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9790",
+      "name": "福井コンピュータホールディングス株式会社",
+      "furigana": "ふくいこんぴゅーたほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9795",
+      "name": "株式会社 ステップ",
+      "furigana": "すてっぷ",
+      "decisionMonth": 9,
+      "registrationDate": ""
+    },
+    {
+      "code": "9799",
+      "name": "旭情報サービス株式会社",
+      "furigana": "あさひじょうほうさーびす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9816",
+      "name": "株式会社 ストライダーズ",
+      "furigana": "すとらいだーず",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9818",
+      "name": "大丸エナウィン株式会社",
+      "furigana": "だいまるえなうぃん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9824",
+      "name": "泉州電業株式会社",
+      "furigana": "せんしゅうでんぎょう",
+      "decisionMonth": 10,
+      "registrationDate": ""
+    },
+    {
+      "code": "9832",
+      "name": "株式会社 オートバックスセブン",
+      "furigana": "おーとばっくすせぶん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9843",
+      "name": "株式会社 ニトリホールディングス",
+      "furigana": "にとりほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9846",
+      "name": "株式会社 天満屋ストア",
+      "furigana": "てんまやすとあ",
+      "decisionMonth": 2,
+      "registrationDate": ""
+    },
+    {
+      "code": "9887",
+      "name": "株式会社 松屋フーズホールディングス",
+      "furigana": "まつやふーずほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9890",
+      "name": "株式会社 マキヤ",
+      "furigana": "まきや",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9896",
+      "name": "ＪＫホールディングス株式会社",
+      "furigana": "じぇいけいほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9929",
+      "name": "平和紙業株式会社",
+      "furigana": "へいわしぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9936",
+      "name": "株式会社 王将フードサービス",
+      "furigana": "おうしょうふーどさーびす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9955",
+      "name": "株式会社 ヨンキュウ",
+      "furigana": "よんきゅう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9956",
+      "name": "株式会社 バローホールディングス",
+      "furigana": "ばろーほーるでぃんぐす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9979",
+      "name": "株式会社 大庄",
+      "furigana": "だいしょう",
+      "decisionMonth": 8,
+      "registrationDate": ""
+    },
+    {
+      "code": "9986",
+      "name": "蔵王産業株式会社",
+      "furigana": "ざおうさんぎょう",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9987",
+      "name": "株式会社 スズケン",
+      "furigana": "すずけん",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    },
+    {
+      "code": "9991",
+      "name": "ジェコス株式会社",
+      "furigana": "じぇこす",
+      "decisionMonth": 3,
+      "registrationDate": ""
+    }
+  ]
+}
