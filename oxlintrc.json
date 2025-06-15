@@ -1,0 +1,32 @@
+{
+  "plugins": ["nextjs", "react", "@typescript-eslint"],
+  "rules": {
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "prefer-const": "warn",
+    "no-console": "warn",
+    "nextjs/next-script-for-ga": "error",
+    "nextjs/no-before-interactive-script-outside-document": "error",
+    "nextjs/no-css-tags": "error",
+    "nextjs/no-head-element": "error",
+    "nextjs/no-html-link-for-pages": "error",
+    "nextjs/no-img-element": "warn",
+    "nextjs/no-page-custom-font": "error",
+    "nextjs/no-styled-jsx-in-document": "error",
+    "nextjs/no-title-in-document-head": "error",
+    "nextjs/no-unwanted-polyfillio": "error"
+  },
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "ignorePatterns": [
+    ".next/**",
+    "node_modules/**",
+    "dist/**",
+    "build/**"
+  ]
+}
